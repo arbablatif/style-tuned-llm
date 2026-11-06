@@ -71,6 +71,8 @@ def rejection_reason(source: str, target: str, cfg: DataConfig) -> str | None:
         return "length_ratio"
     if numbers_in(target) - numbers_in(source):
         return "new_number_in_target"   # the simple side added a fact
+    if numbers_in(source) - numbers_in(target):
+        return "number_dropped"         # run 1 learned this habit from such pairs
     if difflib.SequenceMatcher(None, source, target).ratio() > cfg.max_char_similarity:
         return "near_copy"
     drop = (textstat.flesch_kincaid_grade(source)

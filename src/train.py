@@ -194,6 +194,9 @@ def train(args) -> None:
         "gpu": torch.cuda.get_device_name(0) if torch.cuda.is_available() else "cpu",
         "peak_gpu_memory_gb": round(torch.cuda.max_memory_allocated() / 1e9, 2)
         if torch.cuda.is_available() else None,
+        # Reserved memory is closer to what nvidia-smi and Colab's meter show.
+        "peak_gpu_reserved_gb": round(torch.cuda.max_memory_reserved() / 1e9, 2)
+        if torch.cuda.is_available() else None,
         "log_history": trainer.state.log_history,
     }
     results_dir = RESULTS_DIR / "smoke" if smoke else RESULTS_DIR

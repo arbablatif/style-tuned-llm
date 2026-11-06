@@ -12,7 +12,7 @@ OUTPUT_DIR = ROOT / "outputs"
 ADAPTER_DIR = OUTPUT_DIR / "adapter"
 
 BASE_MODEL = "Qwen/Qwen2.5-1.5B-Instruct"
-ADAPTER_REPO_NAME = "style-tuned-llm-qwen2.5-1.5b-lora"
+ADAPTER_REPO_NAME = "style-tuned-llm-qwen2.5-1.5b-lora-v2"  # run 1 stays on the Hub
 EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 BERTSCORE_MODEL = "distilbert-base-uncased"
 

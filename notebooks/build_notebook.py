@@ -11,6 +11,9 @@ CELLS = [
 
 Fine-tunes Qwen2.5-1.5B-Instruct to rewrite complex text in plain English.
 
+This is run 2. Its training data also rejects pairs that drop a number, and its
+adapter goes to a separate `-v2` Hub repo, so run 1 is kept for comparison.
+
 **Before you start:** choose *Runtime > Change runtime type > T4 GPU*, then run the
 cells in order. Training is capped at 45 minutes. The whole notebook needs no paid API."""),
     ("md", "## 1. Check the GPU"),
@@ -52,14 +55,14 @@ for entry in log["log_history"]:
         print(f"step {step:>5}  train {train.get(step, float('nan')):.3f}  "
               f"validation {entry['eval_loss']:.3f}")"""),
     ("md", "## 7. Evaluate base vs fine-tuned"),
-    ("code", """!python -m src.evaluate --adapter outputs/adapter --update-readme"""),
+    ("code", """!python -m src.evaluate --adapter outputs/adapter"""),
     ("code", """from IPython.display import Markdown, display
 display(Markdown(open("results/examples.md", encoding="utf-8").read()))"""),
     ("md", """## 8. Download the results
 
 **Do this before trying the demo.** Colab deletes these files when the session ends.
 Save `style_tuned_results.zip`, then send it back or unzip it over your local repo."""),
-    ("code", """!zip -q -r style_tuned_results.zip results README.md
+    ("code", """!zip -q -r style_tuned_results.zip results -x "results/v1/*"
 from google.colab import files
 files.download("style_tuned_results.zip")"""),
     ("md", """## 9. Try the demo (optional)

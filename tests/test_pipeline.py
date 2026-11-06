@@ -45,6 +45,11 @@ def test_new_number_is_rejected():
     assert rejection_reason(SOURCE, target, CFG) == "new_number_in_target"
 
 
+def test_dropped_number_is_rejected():
+    target = "The town was created when two nearby villages joined together."
+    assert rejection_reason(SOURCE, target, CFG) == "number_dropped"
+
+
 def test_held_out_and_duplicate_rows_are_removed():
     rows = [{"source": SOURCE, "target": TARGET}] * 2
     kept, stats = clean_pairs(rows, CFG, blocked=set())

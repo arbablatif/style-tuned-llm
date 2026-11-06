@@ -17,7 +17,7 @@ Technical writing is often hard to read for the people who need it. Large hosted
 
 ### Data cleaning
 
-These are measured results from `python -m src.prepare_data` ([results/data_stats.json](results/data_stats.json)). Of 80,000 shuffled pairs scanned, 30,000 passing candidates were embedded, and the first 20,000 that passed the meaning check became the training set.
+These are measured results from `python -m src.prepare_data` ([results/v1/data_stats.json](results/v1/data_stats.json)). Of 80,000 shuffled pairs scanned, 30,000 passing candidates were embedded, and the first 20,000 that passed the meaning check became the training set.
 
 | Filter | Pairs removed |
 |---|---:|
@@ -178,10 +178,10 @@ cp .env.example .env             # then set ADAPTER_ID
 
 ```bash
 # Rewrite text with the adapter (slow without a GPU)
-python -m src.inference --adapter USER/style-tuned-llm-qwen2.5-1.5b-lora --text "Your text."
+python -m src.inference --adapter USER/style-tuned-llm-qwen2.5-1.5b-lora-v2 --text "Your text."
 
 # Gradio demo
-python app.py --adapter USER/style-tuned-llm-qwen2.5-1.5b-lora
+python app.py --adapter USER/style-tuned-llm-qwen2.5-1.5b-lora-v2
 ```
 
 ### Run without a GPU, model or API
