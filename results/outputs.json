@@ -1,0 +1,1901 @@
+{
+  "asset": [
+    {
+      "source": "One side of the armed conflicts is composed mainly of the Sudanese military and the Janjaweed, a Sudanese militia group recruited mostly from the Afro-Arab Abbala tribes of the northern Rizeigat region in Sudan.",
+      "base": "The main part of the fighting includes the Sudanese army and a group called Janjaweed. The Janjaweed are made up mostly of people from a tribe called the Aba Arabs who live near a place called Rizeigat in Sudan.",
+      "fine_tuned": "The other side of the conflict was made up of the Sudanese army and the Janjaweed, a militia group that was made up mostly of people from the Abaar tribe."
+    },
+    {
+      "source": "Jeddah is the principal gateway to Mecca, Islam's holiest city, which able-bodied Muslims are required to visit at least once in their lifetime.",
+      "base": "Jeddah is like a main entrance to Mecca. It's where many people who believe in God go very often because it's one of the most important places for Muslims. They think it's really special and they want to see it at least once when they're older.",
+      "fine_tuned": "Jeddah is a major port on the Red Sea coast of Saudi Arabia. It is also the main gateway to Mecca, where Muslims must go for pilgrimage."
+    },
+    {
+      "source": "The Great Dark Spot is thought to represent a hole in the methane cloud deck of Neptune.",
+      "base": "The big dark spot on Neptune's clouds is believed to be a gap in its methane layer.",
+      "fine_tuned": "It is believed that it represents a hole in the methane clouds on Neptune."
+    },
+    {
+      "source": "His next work, Saturday, follows an especially eventful day in the life of a successful neurosurgeon.",
+      "base": "His new project, called Saturday, tells about a very exciting day in the life of a good doctor who does brain operations.",
+      "fine_tuned": "His next book is called \"Saturday\". It tells about a successful neurosurgeon's day."
+    },
+    {
+      "source": "The tarantula, the trickster character, spun a black cord and, attaching it to the ball, crawled away fast to the east, pulling on the cord with all his strength.",
+      "base": "The big spider named Tarantula was playing tricks. He made a rope that turned dark red. Then he attached one end of the rope to a shiny ball. The spider then ran very quickly towards the sun, pulling hard on the rope.",
+      "fine_tuned": "The tarantula, the trickster character, spun a black cord and, attaching it to the ball, crawled away fast to the east."
+    },
+    {
+      "source": "There he died six weeks later, on 13 January 888.",
+      "base": "He passed away six weeks after that, on January 13, 888.",
+      "fine_tuned": "He died on 13 January 888."
+    },
+    {
+      "source": "They are culturally akin to the coastal peoples of Papua New Guinea.",
+      "base": "They share cultural traits similar to those found among coastal people in Papua New Guinea.",
+      "fine_tuned": "They are similar to the coastal people of Papua New Guinea."
+    },
+    {
+      "source": "Since 2000, the recipient of the Kate Greenaway Medal has also been presented with the Colin Mears Award to the value of £5000.",
+      "base": "Starting from 2000, whoever gets the Kate Greenaway Medal is also given the Colin Mears Award worth £5000.",
+      "fine_tuned": "The Kate Greenaway Medal is given every year by the Royal Society of Literature to a writer under the age of forty."
+    },
+    {
+      "source": "Following the drummers are dancers, who often play the sogo (a tiny drum that makes almost no sound) and tend to have more elaborate — even acrobatic — choreography.",
+      "base": "After the drummers come the dancers. They usually play a very quiet drum called a so-go, which is small enough not to make much noise at all. The dancers also do lots of fancy moves, sometimes even doing tricky tricks!",
+      "fine_tuned": "After the drummers come dancers, who usually play a small drum called a sogo. They also do more complicated dance moves than the drummers."
+    },
+    {
+      "source": "The spacecraft consists of two main elements: the NASA Cassini orbiter, named after the Italian-French astronomer Giovanni Domenico Cassini, and the ESA Huygens probe, named after the Dutch astronomer, mathematician and physicist Christiaan Huygens.",
+      "base": "The spacecraft is made up of two parts: a NASA orbiter called Cassini, named after an important scientist from Italy and France, and an ESA probe called Huygens, named after another famous scientist who was also Dutch, French, and worked as a mathematician and physicist.",
+      "fine_tuned": "It has a main part called the Cassini Orbiter (named after the Italian-French astronomer Giovanni Domenico Cassini) and a smaller part called the Huygens Probe (named after the Dutch astronomer, mathematician and physicist Christiaan Huygens)."
+    },
+    {
+      "source": "Alessandro (\"Sandro\") Mazzola (born 8 November 1942) is an Italian former football player.",
+      "base": "Alessandro Mazzola, known as Sandro, was born on November 8, 1942, and he used to play soccer for Italy.",
+      "fine_tuned": "Sandro Mazzola (born 8 November 1942) is a former Italian football player."
+    },
+    {
+      "source": "It was originally thought that the debris thrown up by the collision filled in the smaller craters.",
+      "base": "At first, it was believed that the dust kicked up from the crash covered up the smaller holes.",
+      "fine_tuned": "The debris from the impact filled in the smaller craters."
+    },
+    {
+      "source": "Graham attended Wheaton College from 1939 to 1943, when he graduated with a BA in anthropology.",
+      "base": "Graham went to college at Wheaton College from 1939 to 1943. He finished his studies there and got a Bachelor of Arts degree in anthropology.",
+      "fine_tuned": "He studied at Wheaton College from 1939 to 1943. He graduated with a Bachelor of Arts degree in Anthropology."
+    },
+    {
+      "source": "However, the BZÖ differs a bit in comparison to the Freedom Party, as is in favor of a referendum about the Lisbon Treaty but against an EU-Withdrawal.",
+      "base": "The BZÖ is different from the Freedom Party. It supports a vote on the Lisbon Treaty but opposes leaving the European Union.",
+      "fine_tuned": "The BZÖ is different from the Freedom Party because it supports a referendum on the Lisbon Treaty but not on leaving the European Union."
+    },
+    {
+      "source": "Many species had vanished by the end of the nineteenth century, with European settlement.",
+      "base": "A lot of different kinds of animals disappeared by the year 1900 because people from Europe started living there.",
+      "fine_tuned": "Many species died out during the 19th century due to human activity."
+    },
+    {
+      "source": "In 1987 Wexler was inducted into the Rock and Roll Hall of Fame.",
+      "base": "Wexler became part of the Rock and Roll Hall of Fame in 1987.",
+      "fine_tuned": "He was inducted into the Rock and Roll Hall of Fame in 1987."
+    },
+    {
+      "source": "In its pure form, dextromethorphan occurs as a white powder.",
+      "base": "Dextromethorphan is found as a white powder when it's all by itself.",
+      "fine_tuned": "Dextromethorphan is a white powder."
+    },
+    {
+      "source": "Admission to Tsinghua is extremely competitive.",
+      "base": "Getting into Tsinghua University is very hard.",
+      "fine_tuned": "It has a very high admission rate."
+    },
+    {
+      "source": "Today NRC is organised as an independent, private foundation.",
+      "base": "NRC is run like a separate, privately owned company.",
+      "fine_tuned": "NRC is now a private foundation."
+    },
+    {
+      "source": "It is situated at the coast of the Baltic Sea, where it encloses the city of Stralsund.",
+      "base": "It's near the sea, right next to the Baltic Sea. That's where the city called Stralsund is located.",
+      "fine_tuned": "It is on the coast of the Baltic Sea."
+    },
+    {
+      "source": "He was also named 1982 \"Sportsman of the Year\" by Sports Illustrated.",
+      "base": "He won the title of \"Sportsman of the Year\" in 1982 from Sports Illustrated.",
+      "fine_tuned": "In 1982 he won the title of Sportsman of the Year."
+    },
+    {
+      "source": "Fives is a British sport believed to derive from the same origins as many racquet sports.",
+      "base": "Five is a sport in Britain that comes from the same place where lots of other games using rackets are from.",
+      "fine_tuned": "Fives is a sport played on a court similar to tennis courts."
+    },
+    {
+      "source": "For example, King Bhumibol was born on Monday, so on his birthday throughout Thailand will be decorated with yellow color.",
+      "base": "For instance, King Bhumibol was born on a Monday, so during his birthday celebrations in Thailand, everything will be painted yellow.",
+      "fine_tuned": "For example, King Bhumibol is born on a Monday, so on his birthday throughout Thailand will be decorated with yellow colour."
+    },
+    {
+      "source": "Both names became defunct in 2007 when they were merged into The National Museum of Scotland.",
+      "base": "Both names stopped working in 2007 because they joined together to become The National Museum of Scotland.",
+      "fine_tuned": "The museum was renamed \"The National Museum of Scotland\" in 2007."
+    },
+    {
+      "source": "Nevertheless, Tagore emulated numerous styles, including craftwork from northern New Ireland, Haida carvings from the west coast of Canada (British Columbia), and woodcuts by Max Pechstein.",
+      "base": "Tagore copied many different styles, like things made in a place called Northern New Ireland, sculptures carved by Native Americans on the West Coast of Canada (that's British Columbia), and pictures drawn with crayons.",
+      "fine_tuned": "Tagore also used many different styles, such as work from northern New Ireland, Haida carvings from the west coast of Canada (British Columbia) and woodcuts by Max Pechstein."
+    },
+    {
+      "source": "On October 14, 1960, Presidential candidate John F. Kennedy proposed the concept of what became the Peace Corps on the steps of Michigan Union.",
+      "base": "In 1960, President-elect John F. Kennedy introduced the idea of a volunteer group called the Peace Corps when he spoke at a meeting place in Michigan.",
+      "fine_tuned": "In 1960, President John F. Kennedy suggested the idea for the Peace Corps to Congress."
+    },
+    {
+      "source": "She performed for President Reagan in 1988's Great Performances at the White House series, which aired on the Public Broadcasting Service.",
+      "base": "In 1988, she appeared on a special show called \"Great Performances\" at the White House during President Reagan's time. This show was shown on a TV channel called PBS.",
+      "fine_tuned": "She was a guest performer in 1988's \"Great Performances\" at the White House series."
+    },
+    {
+      "source": "Perry Saturn (with Terri) defeated Eddie Guerrero (with Chyna) to win the WWF European Championship (8:10) Saturn pinned Guerrero after a Diving elbow drop.",
+      "base": "Perry Saturn teamed up with Terri and beat Eddie Guerrero who was joined by Chyna. Perry won the WWF European Championship 8-10. After that, Perry used a diving elbow drop to pin Guerrero.",
+      "fine_tuned": "Perry Saturn won against Eddie Guerrero by pinfall. Saturn pinned Guerrero after a diving elbow drop."
+    },
+    {
+      "source": "She remained in the United States until 1927 when she and her husband returned to France.",
+      "base": "She stayed in the U.S. for seven years before going back to France with her husband in 1927.",
+      "fine_tuned": "She stayed in the United States until 1927 when she and her husband went back to France."
+    },
+    {
+      "source": "Despina was discovered in late July, 1989 from the images taken by the Voyager 2 probe.",
+      "base": "In July 1989, a new planet called Despina was found using pictures taken by the Voyager 2 space probe.",
+      "fine_tuned": "It was found in July 1989 by the Voyager 2 spacecraft."
+    },
+    {
+      "source": "The first Italian Grand Prix motor racing championship took place on 4 September 1921 at Brescia.",
+      "base": "The very first big race of car driving was held on September 4, 1921, in a town called Brescia.",
+      "fine_tuned": "The first Italian Grand Prix was held in 1921."
+    },
+    {
+      "source": "He also completed two collections of short stories entitled The Ribbajack & Other Curious Yarns and Seven Strange and Ghostly Tales.",
+      "base": "He wrote two story collections: \"The Ribbajack and Other Curious Stories\" and \"Seven Strange and Ghostly Tales.\"",
+      "fine_tuned": "He wrote a collection of short stories called \"The Ribbajack & Other Curious Yarns\"."
+    },
+    {
+      "source": "At the Voyager 2 images Ophelia appears as an elongated object, the major axis pointing towards Uranus.",
+      "base": "Ophelia looks like a stretched-out shape in the Voyager 2 pictures. The biggest part of it points toward Uranus.",
+      "fine_tuned": "Ophelia is seen as a long object at the Voyager 2 images."
+    },
+    {
+      "source": "The British decided to eliminate him and take the land by force.",
+      "base": "The British wanted to get rid of him and took over the land through force.",
+      "fine_tuned": "The British wanted to get rid of him and took the land by force."
+    },
+    {
+      "source": "Some towns on the Eyre Highway in the south-east corner of Western Australia, between the South Australian border almost as far as Caiguna, do not follow official Western Australian time.",
+      "base": "In some places along the Eyre Highway in southern Australia near the border with South Australia, close to Caringora, they don't use official Western Australian time.",
+      "fine_tuned": "Some towns on the Eyre Highway in the south-east corner of Western Australia, between the South Australian border almost as far as Caiguna, do not use Western Australian time."
+    },
+    {
+      "source": "In architectural decoration Small pieces of colored and iridescent shell have been used to create mosaics and inlays, which have been used to decorate walls, furniture and boxes.",
+      "base": "In decorating buildings, small colorful and shiny shells were cut up and put together like puzzle pieces to make pretty designs on walls, furniture, and boxes.",
+      "fine_tuned": "Small pieces of colored and iridescent shell have been used to make mosaics and inlays. These have been used to decorate walls, furniture and boxes."
+    },
+    {
+      "source": "The other incorporated cities on the Palos Verdes Peninsula include Rancho Palos Verdes, Rolling Hills Estates and Rolling Hills.",
+      "base": "Other cities that joined the Palos Verdes Peninsula area are Rancho Palos Verdes, Rolling Hills Estates, and Rolling Hills.",
+      "fine_tuned": "Other cities on the peninsula are Rancho Palos Verdes, Rolling Hills Estates and Rolling Hills."
+    },
+    {
+      "source": "Fearing that Drek will destroy the galaxy, Clank asks Ratchet to help him find the famous superhero Captain Qwark, in an effort to stop Drek.",
+      "base": "Clank is worried about Drek destroying everything, so he asks Ratchet for help. They want to find a super hero named Captain Qwark who can stop Drek from doing bad things.",
+      "fine_tuned": "Clank fears that Drek will destroy the galaxy, so he asks Ratchet to help him find the famous superhero Captain Qwark."
+    },
+    {
+      "source": "It is not actually a true louse.",
+      "base": "It's not really a real louse.",
+      "fine_tuned": "It is not really a louse."
+    },
+    {
+      "source": "He advocates applying a user-centered design process in product development cycles and also works towards popularizing interaction design as a mainstream discipline.",
+      "base": "He believes in using designs that focus on people's needs. He wants to make more of these designs well-known so everyone can use them easily.",
+      "fine_tuned": "He is an advocate of using a user-centered design process in product development cycles. He also works to make interaction design more well known."
+    },
+    {
+      "source": "It is theoretically possible that the other editors who may have reported you, and the administrator who blocked you, are part of a conspiracy against someone half a world away they've never met in person.",
+      "base": "It's possible some people who might have reported you or blocked you could be part of a group trying to harm someone far from where you live, even if they haven't met them personally.",
+      "fine_tuned": "It is also possible that the other people who reported you, and the administrator who blocked you, are part of a conspiracy against someone half a world away they've never met in person."
+    },
+    {
+      "source": "Working Group I: Assesses scientific aspects of the climate system and climate change.",
+      "base": "Group 1: Looks at how the Earth's weather works and why it changes over time.",
+      "fine_tuned": "Working Group I assesses scientific aspects of the climate system."
+    },
+    {
+      "source": "The island chain forms part of the Hebrides, separated from the Scottish mainland and from the Inner Hebrides by the stormy waters of the Minch, the Little Minch and the Sea of the Hebrides.",
+      "base": "The islands are part of a group called the Hebrides. They're far away from the mainland of Scotland and from another smaller group of islands called the Inner Hebrides. The islands are surrounded by big waves that come from the sea between these groups.",
+      "fine_tuned": "It is part of the Hebrides, which are a group of islands off the west coast of Scotland."
+    },
+    {
+      "source": "Orton and his wife welcomed Alanna Marie Orton on July 12, 2008.",
+      "base": "On July 12, 2008, Orton's wife gave birth to a baby girl named Alanna Marie Orton.",
+      "fine_tuned": "He married his wife on July 12, 2008."
+    },
+    {
+      "source": "Formal minor planet designations are number-name combinations overseen by the Minor Planet Center, a branch of the IAU.",
+      "base": "Minor planets get special names that look like numbers and letters, and these are all taken care of by a group called the Minor Planet Center. This center is part of an important club for space scientists called the International Astronomical Union (IAU).",
+      "fine_tuned": "The Minor Planet Center is responsible for naming minor planets."
+    },
+    {
+      "source": "By early on September 30, wind shear began to dramatically increase and a weakening trend began.",
+      "base": "By about the end of September 30th, there was a big change in how strong winds moved around, and we saw that some things were getting weaker.",
+      "fine_tuned": "By early on September 30, wind shear started to get worse and a weakening trend began."
+    },
+    {
+      "source": "Each entry has a datum (a nugget of data) which is a copy of the datum in some backing store.",
+      "base": "Each entry contains a piece of information (called a datum), which is an exact copy stored somewhere else.",
+      "fine_tuned": "Each entry has a datum (a piece of data). This is a copy of the datum in some backing store."
+    },
+    {
+      "source": "As a result, although many mosques will not enforce violations, both men and women when attending a mosque must adhere to these guidelines.",
+      "base": "So even though some mosques won't follow rules, everyone who goes to one - whether it's a man or a woman - has to follow those rules when they're inside.",
+      "fine_tuned": "Because of this, even though some mosques do not follow all the rules, they still have to follow them."
+    },
+    {
+      "source": "Mariel of Redwall is a fantasy novel by Brian Jacques, published in 1991.",
+      "base": "There's a book called \"Mariel of Redwall\" written by Brian Jacques that was first published in 1991.",
+      "fine_tuned": "Mariel of Redwall is a book written by Brian Jacques. It was first published in 1991."
+    },
+    {
+      "source": "Ryan Prosser (born 10 July, 1988) is a professional rugby union player for Bristol Rugby in the Guinness Premiership.",
+      "base": "Ryan Prosser was born on July 10, 1988. He plays professional rugby for Bristol Rugby in the Guinness Premiership league.",
+      "fine_tuned": "Ryan Prosser (born 10 July 1988) is an Australian rugby league player."
+    },
+    {
+      "source": "Like previous assessment reports, it consists of four reports, three of them from its working groups.",
+      "base": "It's like before, but now there are four reports. Three of those come from special committees.",
+      "fine_tuned": "It has four parts: three from its working groups."
+    },
+    {
+      "source": "Their granddaughter Hélène Langevin-Joliot is a professor of nuclear physics at the University of Paris, and their grandson Pierre Joliot, who was named after Pierre Curie, is a noted biochemist.",
+      "base": "Hélène Langevin-Joliot's granddaughter is a nuclear physicist at the University of Paris, and her grandson, Pierre Joliot, named after Marie Curie, is an acclaimed biochemist.",
+      "fine_tuned": "Their granddaughter Hélène Langevin-Joliot is a professor of nuclear physics at the University of Paris. Their grandson Pierre Joliot-Curie, who was named after Pierre Curie, is a noted biochemist."
+    },
+    {
+      "source": "This stamp remained the standard letter stamp for the remainder of Victoria's reign, and vast quantities were printed.",
+      "base": "This special stamp was used as the regular letter stamp during most of Queen Victoria's time on the throne. A lot of these stamps were made.",
+      "fine_tuned": "This stamp was used as a regular letter stamp until Victoria died."
+    },
+    {
+      "source": "The International Fight League was an American mixed martial arts (MMA) promotion billed as the world's first MMA league.",
+      "base": "The International Fight League was a big event where people fought using different types of fighting moves from all over the world. It was called \"the world's first MMA league\" because it was the very first place that brought together fighters who used these different styles to compete against each other.",
+      "fine_tuned": "The International Fight League is a professional mixed martial arts organization that started in 2013."
+    },
+    {
+      "source": "Giardia lamblia (synonymous with Lamblia intestinalis and Giardia duodenalis) is a flagellated protozoan parasite that colonises and reproduces in the small intestine, causing giardiasis.",
+      "base": "Giardia lamblia (also known as Lamblia intestinalis and Giardia duodenalis) is a tiny single-celled creature called a flagellate that lives inside your tummy, where it makes you sick by making you throw up and have diarrhea.",
+      "fine_tuned": "Giardia lamblia (also known as Giardia duodenalis or Giardia intestinalis) is a species of flagellate protist."
+    },
+    {
+      "source": "Aside from this, Cameron has often worked in Christian-themed productions, among them the post-Rapture films Left Behind: The Movie, Left Behind II: Tribulation Force, and Left Behind: World at War, in which he plays Cameron \"Buck\" Williams.",
+      "base": "Cameron has done work on Christian-themed movies like Left Behind and its sequels, where he played a character named Buck.",
+      "fine_tuned": "Cameron has also appeared in several Christian movies such as Left Behind: The Movie, Left Behind II: Tribulation Force, and Left Behind: World at War."
+    },
+    {
+      "source": "This was the area east of the mouth of the Vistula River, later sometimes called \"Prussia proper\".",
+      "base": "This was an area to the east of the Vistula River, also known as \"Prussia Proper\" at times.",
+      "fine_tuned": "It is the area east of the mouth of the Vistula River."
+    },
+    {
+      "source": "After graduation he returned to Yerevan to teach at the local Conservatory and later he was appointed artistic director of the Armenian Philarmonic Orchestra.",
+      "base": "After finishing school, he went back home to Yerevan where he started teaching at a local music conservatory. Later on, he became the leader of the Armenian Philharmonic Orchestra.",
+      "fine_tuned": "He taught music at the conservatory and later became the artistic director of the Armenian Philharmonic Orchestra."
+    },
+    {
+      "source": "The story of Christmas is based on the biblical accounts given in the Gospel of Matthew, namely - and the Gospel of Luke, specifically -.",
+      "base": "The story of Christmas comes from the Bible, especially in the Gospels of Matthew and Luke.",
+      "fine_tuned": "It is based on the stories found in the Gospels of Matthew and Luke."
+    },
+    {
+      "source": "Weelkes was later to find himself in trouble with the Chichester Cathedral authorities for his heavy drinking and immoderate behaviour.",
+      "base": "Wellkes got into trouble at Chichester Cathedral because he drank too much and behaved badly.",
+      "fine_tuned": "He found himself in trouble with the Chichester Cathedral authorities because of his heavy drinking and bad behavior."
+    },
+    {
+      "source": "So far the 'celebrity' episodes have included Vic Reeves, Nancy Sorrell, Gaby Roslin, Scott Mills, Mark Chapman, Simon Gregson, Sue Cleaver, Carol Thatcher, Paul O'Grady and Lee Ryan.",
+      "base": "So far, the \"celebrity\" episodes have featured people like Vic Reeves, Nancy Sorrell, Gaby Roslin, Scott Mills, Mark Chapman, Simon Gregson, Sue Cleaver, Carol Thatcher, and Paul O'Grady.",
+      "fine_tuned": "The celebrity episodes include: Vic Reeves, Nancy Sorrell, Gaby Roslin, Scott Mills, Mark Chapman, Simon Gregson, Sue Cleaver, Carol Thatcher, Paul O'Grady and Lee Ryan."
+    },
+    {
+      "source": "It was discovered by Stephen P. Synnott in images from the Voyager 1 space probe taken on March 5, 1979 while orbiting around Jupiter.",
+      "base": "A discovery was made by Stephen P. Synnott using pictures from a spacecraft called Voyager 1 that took photos of Jupiter on March 5, 1979.",
+      "fine_tuned": "It was found by Stephen P. Synnott in images from the Voyager 1 space probe taken on March 5, 1979."
+    },
+    {
+      "source": "Gomaespuma was a Spanish radio show, hosted by Juan Luis Cano and Guillermo Fesser.",
+      "base": "There was a Spanish radio program called Gomaespuma that had a host named Juan Luis Cano and another person named Guillermo Fesser.",
+      "fine_tuned": "Gomaespuma was a Spanish radio program. It was hosted by Juan Luis Cano and Guillermo Fesser."
+    },
+    {
+      "source": "On 16 June 2009, the official release date of The Resistance was announced on the band's website.",
+      "base": "The resistance game came out on June 16, 2009, as planned.",
+      "fine_tuned": "The album \"The Resistance\" was released on June 16, 2009."
+    },
+    {
+      "source": "He is also a member of another Jungiery boyband 183 Club.",
+      "base": "He's part of another group called the 183 Club, which has a boy band.",
+      "fine_tuned": "He is also a member of the boy band 183 Club."
+    },
+    {
+      "source": "The Apostolic Tradition, attributed to the theologian Hippolytus, attests the singing of Hallel psalms with Alleluia as the refrain in early Christian agape feasts.",
+      "base": "Hippolytus, a theologian, said that in early church celebrations called \"agape feasts,\" they sang special songs called \"Hallel\" with a word \"Alleluia\" at the end.",
+      "fine_tuned": "The Apostolic Tradition says that the people sang Hallel Psalms with \"Alleluia\" at the end."
+    },
+    {
+      "source": "In return, Rollo swore fealty to Charles, converted to Christianity, and undertook to defend the northern region of France against the incursions of other Viking groups.",
+      "base": "In turn, Rollo pledged loyalty to Charles, embraced Christianity, and agreed to protect the northern part of France from attacks by other Vikings.",
+      "fine_tuned": "Rollo agreed to convert to Christianity and fight for Charles."
+    },
+    {
+      "source": "It is derived from Voice of America (VoA) Special English.",
+      "base": "It comes from a special version made by Voice of America (VoA).",
+      "fine_tuned": "It was made by Voice of America (VoA)."
+    },
+    {
+      "source": "Disney received a full-size Oscar statuette and seven miniature ones, presented to him by 10-year-old child actress Shirley Temple.",
+      "base": "Disney got a big Oscar statue, and he also got smaller statues from a little girl named Shirley Temple who was just ten years old.",
+      "fine_tuned": "He was given a full-size Oscar statue and seven smaller ones, each one for his achievements."
+    },
+    {
+      "source": "It was the first asteroid to be discovered by a spacecraft.",
+      "base": "The very first asteroid ever found by a space probe was discovered.",
+      "fine_tuned": "It is the first asteroid found by a space probe."
+    },
+    {
+      "source": "Hinterrhein is an administrative district in the canton of Graubünden, Switzerland.",
+      "base": "Hinterrhein is a part of a big area called the Canton of Graubünden, which is in a country named Switzerland.",
+      "fine_tuned": "Hinterrhein is a district in the canton of Graubünden, Switzerland."
+    },
+    {
+      "source": "It continues as the Bohemian Switzerland in the Czech Republic.",
+      "base": "It's like Bohemian Switzerland in a place called the Czech Republic.",
+      "fine_tuned": "It is called Bohemian Switzerland in the Czech Republic."
+    },
+    {
+      "source": "This leads to consumer confusion when 220 (1,048,576) bytes is referenced as 1 MB (megabyte) instead of 1 MiB.",
+      "base": "It can be confusing for consumers because sometimes they see 220 bytes as being 1 megabyte (MB), but it's actually supposed to be 1 mebibyte (MiB).",
+      "fine_tuned": "This causes confusion for consumers when 220 bytes is referred to as one megabyte (MB)."
+    },
+    {
+      "source": "The incident has been the subject of numerous reports as to ethics in scholarship.",
+      "base": "Many people have talked about how good or bad it is for students to learn from books.",
+      "fine_tuned": "It is also a topic for many reports about ethics in scholarship."
+    },
+    {
+      "source": "They are castrated so that the animal may be more docile or may put on weight more quickly.",
+      "base": "They get their testicles removed to make the animal easier to handle or gain weight faster.",
+      "fine_tuned": "They are castrated to make them less aggressive."
+    },
+    {
+      "source": "Seventh sons have strong \"knacks\" (specific magical abilities), and seventh sons of seventh sons are both extraordinarily rare and powerful.",
+      "base": "The seventh son has special powers, and so do the seventh sons' descendants. These descendants are very rare but also very strong.",
+      "fine_tuned": "Seventh sons have strong \"knacks\", which are specific magical abilities. Seventh sons of seventh sons are very rare and powerful."
+    },
+    {
+      "source": "Benchmarking conducted by PassMark Software highlights the 2009 version's 52 second install time, 32 second scan time, and 7 MB memory utilization.",
+      "base": "PassMark Software's benchmark shows that the 2009 version takes 52 seconds to install, 32 seconds for a scan, and uses up 7 megabytes of memory.",
+      "fine_tuned": "The benchmark tests show that it takes 52 seconds to install, 32 seconds to scan, and 7 MB of RAM is used."
+    },
+    {
+      "source": "Volterra is a town in the Tuscany region of Italy.",
+      "base": "Volterra is a city in Tuscany, Italy.",
+      "fine_tuned": "Volterra is a city in Tuscany, Italy."
+    },
+    {
+      "source": "Historically, the sensations of itch and pain have not been considered to be independent of each other until recently, where it was found that itch has several features in common with pain, but exhibits notable differences.",
+      "base": "In the past, people thought itch and pain were separate feelings. But now we know they're connected. Itch shares some things with pain, like how strong or long-lasting they are. But there are also big differences between them.",
+      "fine_tuned": "Itch is a sensation which can cause pain or discomfort. Historically, the sensations of itch and pain were thought to be different from one another."
+    },
+    {
+      "source": "The tongue is sticky because of the presence of glycoprotein-rich mucous, which both lubricates movement in and out of the snout and helps to catch ants and termites, which adhere to it.",
+      "base": "The tongue sticks because of special gooey stuff on it that keeps things moving smoothly and also helps it grab tiny bugs like ants and termites.",
+      "fine_tuned": "The tongue is sticky because of the presence of glycoprotein-rich mucus, which both lubricates movement in and out of the snout and helps to catch ants and termites."
+    },
+    {
+      "source": "The same tram had derailed on 30 May 2006 at Starr Gate loop during previous trials.",
+      "base": "A tram that was broken down on May 30, 2006, at a place called Starr Gate Loop when they were testing it before.",
+      "fine_tuned": "It also derailed on 30 May 2006 at Starr Gate Loop during a trial run."
+    },
+    {
+      "source": "There are statues of Sir Alf Ramsey and Sir Bobby Robson, both former Ipswich Town and England managers, outside the ground.",
+      "base": "There are statues of two famous soccer coaches from England - Sir Alf Ramsey and Sir Bobby Robson - who used to manage Ipswich Town and England teams, standing outside the stadium.",
+      "fine_tuned": "There is a statue of Sir Alf Ramsey outside the ground."
+    },
+    {
+      "source": "Take the square root of the variance.",
+      "base": "Find the square root of the variance.",
+      "fine_tuned": "Find the square root of the variance."
+    },
+    {
+      "source": "Volunteers provided food, blankets, water, children's toys, massages, and a live rock band performance for those at the stadium.",
+      "base": "Volunteers gave people food, blankets, water, toys for kids, massages, and a fun rock band show at the big stadium.",
+      "fine_tuned": "The volunteers gave food, blankets, water, children's toys, massages, and a live rock band performance to people at the stadium."
+    },
+    {
+      "source": "Vouvray-sur-Huisne is a commune in the Sarthe department in the region of Pays-de-la-Loire in northwestern France.",
+      "base": "Vouvray-sur-Huisne is a town in the Sarthe district of the Loire Region in western France.",
+      "fine_tuned": "Vouvray-sur-Huisne is a commune. It is found in the Sarthe department of western France."
+    },
+    {
+      "source": "If there are no strong land use controls, buildings are built along a bypass, converting it into an ordinary town road, and the bypass may eventually become as congested as the local streets it was intended to avoid.",
+      "base": "If people don't make rules about where buildings can go, they'll build them on a side road. This makes that road look like regular streets instead of just a shortcut. In time, all those shortcuts turn into big traffic jams because cars have nowhere else to go.",
+      "fine_tuned": "If there are no strong land use controls, buildings are built along a bypass, turning it into an ordinary town road. The bypass may then become as crowded as the local streets it was meant to avoid."
+    },
+    {
+      "source": "It is also a starting point for people wanting to explore Cooktown, Cape York Peninsula, and the Atherton Tableland.",
+      "base": "It's a great place to start if you're interested in exploring Cooktown, Cape York Peninsula, and the Atherton Tableland.",
+      "fine_tuned": "It is also a starting point for people who want to visit Cooktown, Cape York Peninsula, and the Atherton Tableland."
+    },
+    {
+      "source": "Bruises often induce pain but are not normally dangerous.",
+      "base": "Bruises usually hurt, but they're generally not serious.",
+      "fine_tuned": "Bruises usually cause pain, but they are not dangerous."
+    },
+    {
+      "source": "None of the authors, contributors, sponsors, administrators, vandals, or anyone else connected with Wikipedia, in any way whatsoever, can be responsible for your use of the information contained in or linked from these web pages.",
+      "base": "No one involved with Wikipedia, including the people who wrote about it, made anything happen on those websites. They're not to blame if you use the information there.",
+      "fine_tuned": "None of the people who wrote about Wikipedia, contributed to it, sponsored it, or helped run it are responsible for what you do on these pages."
+    },
+    {
+      "source": "George Frideric Handel also served as Kapellmeister for George, Elector of Hanover (who eventually became George I of Great Britain).",
+      "base": "George Frideric Handel worked as a music director for George, who was later called George I and became the king of England.",
+      "fine_tuned": "He was also a Kapellmeister to George, Elector of Hanover who later became King George I of Great Britain."
+    },
+    {
+      "source": "Their eyes are quite small, and their visual acuity is poor.",
+      "base": "Their eyes are not very big, and they can't see things clearly.",
+      "fine_tuned": "They have very small eyes and bad vision."
+    },
+    {
+      "source": "They are rivaled as biological materials in toughness only by chitin.",
+      "base": "They're tough like chitin, which is also very strong when it comes to living things.",
+      "fine_tuned": "They are tougher than any other material known to man."
+    },
+    {
+      "source": "Oregano is an indispensable ingredient in Greek cuisine.",
+      "base": "Oregano is very important in Greek cooking.",
+      "fine_tuned": "It is used a lot in Greek cooking."
+    },
+    {
+      "source": "Tickets can be retailed for National Rail services, the Docklands Light Railway and on Oyster card.",
+      "base": "You can buy tickets for trains on the main line, the light rail system in Docklands, and using an Oyster card.",
+      "fine_tuned": "They sell tickets to travel by train or bus."
+    },
+    {
+      "source": "These works he produced and published himself, whilst his much larger woodcuts were mostly commissioned work.",
+      "base": "He created and sold these things on his own, but most of the woodcuts he made were done for other people's money.",
+      "fine_tuned": "He made many prints of his own designs, but most of his woodcuts were done for others to print."
+    },
+    {
+      "source": "The historical method comprises the techniques and guidelines by which historians use primary sources and other evidence to research and then to write history.",
+      "base": "The historical approach includes ways historians use important facts (primary sources) and clues from these facts to learn about past events and then write about those events.",
+      "fine_tuned": "Historical methods are the ways that historians study past events. They use primary sources and other evidence to do so."
+    },
+    {
+      "source": "The sheer weight of the continental icecap sitting on top of Lake Vostok is believed to contribute to the high oxygen concentration.",
+      "base": "The big ice cap on top of Lake Vostok weighs so much that it makes the water there have a lot of oxygen.",
+      "fine_tuned": "The weight of the ice cap above Lake Vostok makes it have a lot of oxygen."
+    },
+    {
+      "source": "As of 2000, the population was 89,148.",
+      "base": "In 2000, there were 89,148 people living there.",
+      "fine_tuned": "In 2000, 89,148 people lived there."
+    },
+    {
+      "source": "Aliteracy (sometimes spelled alliteracy) is the state of being able to read but being uninterested in doing so.",
+      "base": "Alliteration means you can read, but you're not interested in reading.",
+      "fine_tuned": "Aliteracy is a person who can read but does not want to do so."
+    },
+    {
+      "source": "Mifepristone is a synthetic steroid compound used as a pharmaceutical.",
+      "base": "Mifepristone is a man-made chemical that doctors use to treat certain health problems.",
+      "fine_tuned": "Mifepristone is a drug that stops pregnancy from happening."
+    },
+    {
+      "source": "It will then dislodge itself and sink back to the river bed in order to digest its food and wait for its next meal.",
+      "base": "Then it will come out of the mud and go back to the bottom of the river where it eats its food and waits for its next meal.",
+      "fine_tuned": "When it is done eating, it will fall back down to the bottom of the river where it can eat again."
+    },
+    {
+      "source": "Furthermore, research has shown children are less likely to report a crime if it involves someone that he or she knows, trusts, and / or cares about.",
+      "base": "Research shows kids are less likely to tell on someone if they know them, trust them, and care about them when it comes to reporting crimes.",
+      "fine_tuned": "Children are less likely to report crimes if they know who committed them."
+    },
+    {
+      "source": "Today, Landis' father has become a hearty supporter of his son and regards himself as one of Floyd's biggest fans.",
+      "base": "Landis' dad is now very happy for his son and thinks he's really good at playing football.",
+      "fine_tuned": "Landis' father is now a big fan of his son."
+    },
+    {
+      "source": "Shortly after attaining Category 4 status, the outer convection of the hurricane became ragged.",
+      "base": "After becoming a very strong storm, parts of the hurricane started to look messy or irregular.",
+      "fine_tuned": "After reaching category 4, the outer part of the storm started to become ragged."
+    },
+    {
+      "source": "The equilibrium price for a certain type of labor is the wage.",
+      "base": "The right price for some workers is their pay.",
+      "fine_tuned": "The equilibrium price for a certain type of labor is the wage."
+    },
+    {
+      "source": "Convinced that the grounds were haunted, they decided to publish their findings in a book An Adventure (1911), under the pseudonyms of Elizabeth Morison and Frances Lamont.",
+      "base": "They believed the place was cursed so they wrote about it in a book called \"An Adventure\" from 1911. They used fake names on purpose.",
+      "fine_tuned": "They published their findings in a book called \"An Adventure\" (1911). They used the names Elizabeth Morison and Frances Lamont."
+    },
+    {
+      "source": "He settled in London, devoting himself chiefly to practical teaching.",
+      "base": "He moved to London and focused mainly on teaching practical things there.",
+      "fine_tuned": "He moved to London and taught there."
+    },
+    {
+      "source": "Brunstad has several fast food restaurants, a cafeteria-style restaurant, coffee bar, and its own grocery store.",
+      "base": "Brunstad has many quick-service eateries, a cafeteria-style restaurant, a coffee shop, and an on-site grocery store.",
+      "fine_tuned": "It also has a cafeteria-style restaurant, coffee bar, and its own grocery store."
+    },
+    {
+      "source": "He left a detachment of 11,000 troops to garrison the newly conquered region.",
+      "base": "He sent 11,000 soldiers to guard the new area that was taken over.",
+      "fine_tuned": "He left a group of 11,000 soldiers to guard the new area."
+    },
+    {
+      "source": "In 1438 Trevi passed under the temporal rule of the Church as part of the legation of Perugia, and thenceforth its history merges first with that of the States of the Church, then (1860) with the united Kingdom of Italy.",
+      "base": "In 1438, Trevi became part of the Church's control when a group called Perugia sent someone there. After that, its story started to connect with other important groups like the States of the Church. In 1860, these groups joined together to form one big country called Italy.",
+      "fine_tuned": "Trevi was a city of the Papal States until 1438 when it became part of the Kingdom of Naples."
+    },
+    {
+      "source": "The depression moved inland on the 20th as a circulation devoid of convection, and dissipated the next day over Brazil, where it caused heavy rains and flooding.",
+      "base": "On the 20th, the depression moved towards land as if there was no thunderstorm activity happening inside it. The following day, it ended up over Brazil. In that area, it brought about lots of rain and made things very wet.",
+      "fine_tuned": "It moved inland on the 20th as a circulation without any thunderstorms. It dissipated the next day over Brazil, causing heavy rain and floods."
+    },
+    {
+      "source": "The New York City Housing Authority Police Department was a law enforcement agency in New York City that existed from 1952 to 1995.",
+      "base": "There was an NYPD police force in New York City called the New York City Housing Authority Police Department. This group worked as part of the city's police force from 1952 until it stopped existing in 1995.",
+      "fine_tuned": "The New York City Housing Authority Police Department (NYCHAPD) is an organization of police officers who work for the New York City Housing Authority."
+    },
+    {
+      "source": "The current lineup of the band comprises Flynn (vocals, guitar), Duce (bass), Phil Demmel (guitar), and Dave McClain (drums).",
+      "base": "The group's current members are Flynn on vocals and guitar, Duce on bass, Phil Demmel on guitar, and Dave McClain on drums.",
+      "fine_tuned": "The members are: Flynn (vocals, guitar), Duce (bass), Phil Demmel (guitar) and Dave McClain (drums)."
+    },
+    {
+      "source": "Advocacy Countries with a minority Muslim population are more likely than Muslim-majority countries of the Greater Middle East to use mosques as a way to promote civic participation.",
+      "base": "Countries that support minorities often have fewer Muslims; these places tend to use mosques for people to get involved in their communities.",
+      "fine_tuned": "Countries that have a small number of Muslims tend to use mosques for civic participation."
+    },
+    {
+      "source": "The characters are foul-mouthed extensions of their earlier characters Pete and Dud.",
+      "base": "The characters speak dirty like they were before, just as Pete and Dud did.",
+      "fine_tuned": "They are a pair of foul-mouthed versions of Pete and Dud."
+    },
+    {
+      "source": "Johan was also the original bassist of the Swedish power metal band HammerFall, but quit before the band ever released a studio album.",
+      "base": "Johan played on the bass for a Swedish power metal group called HammerFall, but he left before they made any music recordings.",
+      "fine_tuned": "He is best known as the bass guitarist for the Swedish heavy metal band Hammerfall."
+    },
+    {
+      "source": "In 1998, Culver ran for Iowa Secretary of State and was victorious.",
+      "base": "In 1998, Culver won an election to be the Secretary of State for Iowa.",
+      "fine_tuned": "Culver ran for Iowa Secretary of State in 1998."
+    },
+    {
+      "source": "In 1990, Mark Messier took the Hart over Ray Bourque by a margin of two votes, the difference being a single first-place vote.",
+      "base": "Mark Messmer won the Hart Trophy over Ray Bourque in 1990 by just two votes. The key difference was that one person received an extra first-place vote.",
+      "fine_tuned": "Mark Messier won the Hart Trophy in 1990 when he beat Ray Bourque by two votes."
+    },
+    {
+      "source": "Shade sets the main plot of the novel in motion when he impetuously defies that law, and inadvertently initiates a chain of events that leads to the destruction of his colony's home, forcing their premature migration, and his separation from them.",
+      "base": "When Shade does something very silly (impetuous means doing something quickly without thinking), it starts the story happening. This makes things go wrong for him because he accidentally causes all sorts of problems. These problems make Shade leave his friends before they're ready, which is sad.",
+      "fine_tuned": "Shade sets the main plot of the novel in motion when he defies that law, and accidentally starts a chain of events which lead to the destruction of his colony's home, forcing their early migration, and his separation from them."
+    },
+    {
+      "source": "The female equivalent is a daughter.",
+      "base": "The female counterpart is a daughter.",
+      "fine_tuned": "A female is called a \"daughter\"."
+    },
+    {
+      "source": "He was diagnosed with inoperable abdominal cancer in April 1999.",
+      "base": "In April 1999, he was told that he had a very serious illness called cancer that couldn't be fixed by surgery.",
+      "fine_tuned": "In 1999 he was diagnosed with inoperable stomach cancer."
+    },
+    {
+      "source": "Prior to the arrival of the storm, the National Park Service closed visitor centers and campgrounds along the Outer Banks.",
+      "base": "Before the storm came, the park workers told everyone they couldn't visit their places on the Outer Banks anymore.",
+      "fine_tuned": "Before the storm, the National Park Service closed visitor centers and campgrounds on the Outer Banks."
+    },
+    {
+      "source": "The form of chess played is speed chess in which each competitor has a total of twelve minutes for the whole game.",
+      "base": "The type of chess we're playing is called \"speed chess.\" In this version, both players have 12 minutes to finish their entire game.",
+      "fine_tuned": "Each player gets 12 minutes to play their entire game."
+    },
+    {
+      "source": "The Amazon Basin is the part of South America drained by the Amazon River and its tributaries.",
+      "base": "The Amazon Basin is a big area in South America where the Amazon River flows and all the smaller rivers that feed it.",
+      "fine_tuned": "The Amazon basin is a large area of land that is drained by the Amazon river."
+    },
+    {
+      "source": "The two former presidents were later separately charged with mutiny and treason for their roles in the 1979 coup and the 1980 Gwangju massacre.",
+      "base": "Two former presidents were accused of mutiny and treason after being involved in a 1979 coup and the 1980 Gwangju massacre.",
+      "fine_tuned": "They were also tried for mutiny and treason because of their role in the 1979 coup and the 1980 Gwangju Massacre."
+    },
+    {
+      "source": "Moderate to severe damage extended up the Atlantic coastline and as far inland as West Virginia.",
+      "base": "Damage from moderate to severe levels spread along parts of the Atlantic coast and went all the way into West Virginia.",
+      "fine_tuned": "Damage was moderate to severe along the Atlantic coast and as far inland as West Virginia."
+    },
+    {
+      "source": "Because the owner tends to be unaware, these computers are metaphorically compared to zombies.",
+      "base": "The owner often doesn't know about it, so we compare these computers to zombies.",
+      "fine_tuned": "The owners of these computers tend to be unaware, so they are called \"zombies\"."
+    },
+    {
+      "source": "The wave traveled across the Atlantic, and organized into a tropical depression off the northern coast of Haiti on September 13.",
+      "base": "A big ocean wave moved from one side to the other called the Atlantic Ocean. Then it formed into something called a tropical storm near the top part of Haiti on September 13.",
+      "fine_tuned": "It moved over the Atlantic Ocean and became a tropical storm near the north coast of Haiti on September 13."
+    },
+    {
+      "source": "For example, the stylebook of the Associated Press is updated annually.",
+      "base": "The AP Stylebook, which is like a book that tells people how to write correctly, gets new information every year.",
+      "fine_tuned": "The AP Stylebook is updated every year."
+    },
+    {
+      "source": "The four canonical texts are the Gospel of Matthew, Gospel of Mark, Gospel of Luke and Gospel of John, probably written between AD 65 and 100 (see also the Gospel according to the Hebrews).",
+      "base": "The four main Bible books are called the Gospels of Matthew, Mark, Luke, and John. These were most likely written around AD 65 to 100. There's also a book called \"Gospel According to the Hebrews.\"",
+      "fine_tuned": "The four main books of the New Testament are: The Gospel According to Matthew, The Gospel According to Mark, The Gospel According to Luke, and The Gospel According to John."
+    },
+    {
+      "source": "Since the end of the 19th century Eschelbronn is well known for its furniture manufacturing industry.",
+      "base": "Eschelbronn has been famous for making furniture since the late 1800s.",
+      "fine_tuned": "Eschelbronn is famous for its furniture making."
+    },
+    {
+      "source": "The upper half also resembles the coat of arms of the former district Oberbarnim.",
+      "base": "The top part looks like a picture that used to be on the old area called Oberbarnim.",
+      "fine_tuned": "The upper part is similar to the coat of arms of the former district Oberbarnim."
+    },
+    {
+      "source": "Unlike the clouds on Earth, however, which are composed of crystals of ice, Neptune's cirrus clouds are made up of crystals of frozen methane.",
+      "base": "Neptune has cirrus clouds that are different from Earth's because they're not made of ice crystals like clouds here, but instead are made of frozen methane crystals.",
+      "fine_tuned": "Neptune has clouds that are made of frozen methane instead of water like on Earth."
+    },
+    {
+      "source": "Their participation is limited until they reach legal adulthood.",
+      "base": "They can't join until they become old enough by law.",
+      "fine_tuned": "They can not be a member of the club until they are 18 years old."
+    },
+    {
+      "source": "Development Stable releases are rare, but there are often Subversion snapshots which are stable enough to use.",
+      "base": "Development Stable versions are not very common, but you can sometimes find Subversion snapshots that are good enough for regular use.",
+      "fine_tuned": "There are many Subversion snapshots that are stable enough to use."
+    },
+    {
+      "source": "Finally in 1482 the Order dispatched him to Florence, the ‘ city of his destiny ’.",
+      "base": "In 1482, the group sent him to Florence, where he considered himself destined to be.",
+      "fine_tuned": "In 1482 he was sent by the order to Florence."
+    },
+    {
+      "source": "In the Soviet years, the Bolsheviks demolished two of Rostov's principal landmarks - St Alexander Nevsky Cathedral (1908) and St George Cathedral in Nakhichevan (1783-1807).",
+      "base": "During the time when the Soviet Union was in power, the Bolsheviks destroyed two important buildings in Rostov. One was a cathedral called St. Alexander Nevsky Cathedral that was built in 1908. The other was another cathedral named St. George Cathedral, which was built in Nakhichevan between 1783 and 1807.",
+      "fine_tuned": "The Soviets destroyed two of Rostov's main buildings: St Alexander Nevsky Cathedral (1908) and St George Cathedral in Nakhichevan (1783-1807)."
+    },
+    {
+      "source": "He died on May 29, 1518 in Madrid, Spain and was buried in the church of San Benito d'Alcantara.",
+      "base": "He passed away on May 29, 1518 in Madrid, Spain and was buried in the church of Saint Benedict of Alcantara.",
+      "fine_tuned": "He died in Madrid, Spain. He is buried at the church of San Benito d'Alcantara."
+    },
+    {
+      "source": "This was demonstrated in the Miller-Urey experiment by Stanley L. Miller and Harold C. Urey in 1953.",
+      "base": "Stanley L. Miller and Harold C. Urey did an experiment in 1953 that showed how life might start on Earth.",
+      "fine_tuned": "In 1953 Stanley L. Miller and Harold C. Urey did an experiment to show how life could have started on Earth."
+    },
+    {
+      "source": "Cogeneration (also combined heat and power, CHP) is the use of a heat engine or a power station to simultaneously generate both electricity and useful heat.",
+      "base": "Cogeneration means using one machine that makes both electricity and warm water at the same time.",
+      "fine_tuned": "Combined heat and power (CHP), also known as cogeneration, is when a power plant produces both electricity and useful heat at the same time."
+    },
+    {
+      "source": "On occasion the male \"den master\" will also allow a second male into the den; the reason for this is unclear.",
+      "base": "Sometimes, when there are two males living together, one of them lets another male join their group. No one knows why they do this.",
+      "fine_tuned": "Sometimes the male \"den master\" allows another male to enter the den."
+    },
+    {
+      "source": "A Wikipedia gadget is a JavaScript and / or a CSS snippet that can be enabled simply by checking an option in your Wikipedia preferences.",
+      "base": "A Wikipedia tool is like a small piece of code that you can turn on just by choosing it from a list in your settings. It's like having a special button to activate something fun!",
+      "fine_tuned": "A Wikipedia gadget is a small piece of code (a script) which can be added to a page on Wikipedia."
+    },
+    {
+      "source": "Below are some useful links to facilitate your involvement.",
+      "base": "Here are some helpful websites that can help you get involved.",
+      "fine_tuned": "Here are some useful links for you."
+    },
+    {
+      "source": "He served as the prime minister of Egypt between 1945 and 1946 and again from 1946 and 1948.",
+      "base": "He was the prime minister of Egypt twice: once from 1945 to 1946 and then again from 1946 to 1948.",
+      "fine_tuned": "He was Prime Minister of Egypt from 1945 to 1946 and again from 1946 to 1948."
+    },
+    {
+      "source": "She was left behind (explanations for this vary) when the rest of the Nicoleños were moved to the mainland.",
+      "base": "When most of the people from a place called Nicoleño went to live on the mainland, she was left behind. Different reasons can explain why.",
+      "fine_tuned": "The rest of the Nicoleños were moved to the mainland."
+    },
+    {
+      "source": "James I appointed him a Gentleman of the Chapel Royal, where he served as an organist from at least 1615 until his death.",
+      "base": "James I made James a special helper for church music. He worked there as a musician until he died.",
+      "fine_tuned": "He was made a Gentleman of the Chapel Royal by James I. He worked there for about forty years."
+    },
+    {
+      "source": "Chauvin was embarrassed to receive his award and initially indicated that he may not accept it.",
+      "base": "Chauvin felt a bit silly when he got his prize and said at first that he probably wouldn't take it.",
+      "fine_tuned": "He said he would not accept the award because of embarrassment."
+    },
+    {
+      "source": "Later, Esperanto speakers began to see the language and the culture that had grown up around it as ends in themselves, even if Esperanto is never adopted by the United Nations or other international organizations.",
+      "base": "After that, people who speak Esperanto started thinking of the language itself and its associated culture as important, even though they didn't use it for official things like the UN.",
+      "fine_tuned": "Later, Esperanto speakers saw the language and the culture that grew up around it as ends in itself, even if Esperanto was not used by the United Nations or other international organizations."
+    },
+    {
+      "source": "Dry air wrapping around the southern periphery of the cyclone eroded most of the deep convection by early on September 12.",
+      "base": "The dry air surrounding the storm's edge removed much of the strong thunderstorms by September 12.",
+      "fine_tuned": "The dry air wrapped around the southern edge of the storm and erased much of the deep convection by early on September 12."
+    },
+    {
+      "source": "Calvin Baker is an American novelist.",
+      "base": "Calvin Baker is a writer from America who writes books.",
+      "fine_tuned": "Calvin Baker is a writer."
+    },
+    {
+      "source": "Eva Anna Paula Braun, died Eva Anna Paula Hitler (6 February 1912 – 30 April 1945) was the longtime companion and, for a brief time, wife of Adolf Hitler.",
+      "base": "Eva Anna Paula Braun, who lived from February 6, 1912, to April 30, 1945, was Adolf Hitler's long-time companion and briefly his wife.",
+      "fine_tuned": "Eva Anna Paula Hitler (born 6 February 1912; died 30 April 1945) was Adolf Hitler's long-time companion and later his wife."
+    },
+    {
+      "source": "Each version of the License is given a distinguishing version number.",
+      "base": "Every time you get a new version of the License, it gets its own special name.",
+      "fine_tuned": "Each version of the license has its own version number."
+    },
+    {
+      "source": "Most IRC servers do not require users to register an account but a user will have to set a nickname before being connected.",
+      "base": "Most IRC servers don't ask for your name or email address when you join, but you'll need to choose a special name (nickname) first so you can talk on the channel.",
+      "fine_tuned": "Most IRC servers do not require users to register an account. A user must set a nickname before being connected."
+    },
+    {
+      "source": "That same year he also received a mechanics certificate, becoming the youngest certificated airplane mechanic in New York.",
+      "base": "In that same year, he got a special paper saying he could fix airplanes. He was so young that no one else had it before him.",
+      "fine_tuned": "He got his first mechanics certificate that year. He was the youngest certified airplane mechanic in New York."
+    },
+    {
+      "source": "SummerSlam (2009) is an upcoming professional wrestling pay-per-view event produced by World Wrestling Entertainment (WWE), which will take place on August 23, 2009 at Staples Center in Los Angeles, California.",
+      "base": "SummerSlam (2009) is a big wrestling show coming up soon. It's going to be on August 23, 2009, at a place called Staples Center in Los Angeles. WWE makes it happen.",
+      "fine_tuned": "SummerSlam is a professional wrestling pay-per-view event that was created by World Wrestling Entertainment (WWE). It takes place on August 23, 2009 at Staples Center in Los Angeles, California."
+    },
+    {
+      "source": "Usually portrayed as being bald, with long whiskers, he is said to be an incarnation of the Southern Polestar.",
+      "base": "He's usually shown without hair, with long whiskers, and people say he represents the Southern Pole Star.",
+      "fine_tuned": "He is usually shown as a bald man with long whiskers."
+    },
+    {
+      "source": "A few animals have chromatic response, changing color in changing environments, either seasonally (ermine, snowshoe hare) or far more rapidly with chromatophores in their integument (the cephalopod family).",
+      "base": "Some animals change colors to match their surroundings. This happens for different reasons: some do it naturally during the seasons, like rabbits that turn white in winter. Others use special pigments on their skin called chromatophores to quickly change color when they need to.",
+      "fine_tuned": "Some animals change colour to match their environment, such as the ermine which changes its fur from white to brown during winter."
+    },
+    {
+      "source": "Val Venis defeated Rikishi in a Steel cage match to retain the WWF Intercontinental Championship (14:10) Venis pinned Rikishi after Tazz hit Rikishi with a TV camera.",
+      "base": "Val Venis beat Rikishi in a steel cage fight to keep his WWF world title (14 minutes). After Tazz hit Rikishi with a TV camera, Venis pinned him down.",
+      "fine_tuned": "Val Venis defeated Rikishi in a steel cage match to keep the WWF Intercontinental Championship."
+    },
+    {
+      "source": "This closely resembles the Unix philosophy of having multiple programs each doing one thing well and working together over universal interfaces.",
+      "base": "It's like Unix's idea that lots of special tools do one job really well and work together using common rules.",
+      "fine_tuned": "Unix has a similar idea to that of many other operating systems: \"many small programs do one thing very well\"."
+    },
+    {
+      "source": "He came from a musical family; his mother, LaRue, was an administrative assistant and singer, and his father, Keith Brion, was a band director at Yale.",
+      "base": "His mom, LaRue, worked as an admin assistant and sang too. His dad, Keith Brion, taught music to bands at Yale.",
+      "fine_tuned": "His parents were musicians: his mother was a singer and his father was a band director at Yale University."
+    },
+    {
+      "source": "The largest populations of Mennonites are in Canada, Democratic Republic of Congo and the United States, but Mennonites can also be found in tight-knit communities in at least 51 countries on six continents or scattered amongst the populace of those countries.",
+      "base": "Mennonites have the biggest groups in Canada, the DRC, and the US. But they're also in small communities all over the world - from Africa to Europe, Asia, and even Australia. There's a Mennonite community almost everywhere!",
+      "fine_tuned": "Mennonites live in many different places around the world. The largest groups of Mennonites live in Canada, the United States, and the Democratic Republic of Congo."
+    },
+    {
+      "source": "Naas is a major \"Dublin Suburb\" town, with many people living in Naas and working in Dublin.",
+      "base": "Nas is a big city that's part of Dublin. Lots of people live there and work in Dublin too.",
+      "fine_tuned": "It is a suburb of Dublin, Ireland."
+    },
+    {
+      "source": "Acanthopholis's armour consisted of oval plates set almost horizontally into the skin, with spikes protruding from the neck and shoulder area, along the spine.",
+      "base": "Acanthopholis had armor made up of oval plates that were attached to its skin. These plates had spikes sticking out near the neck and shoulders, as well as along its back.",
+      "fine_tuned": "Its armor was made up of oval plates that were set almost horizontally into its skin."
+    },
+    {
+      "source": "Origin Irmo was chartered on Christmas Eve in 1890 in response to the opening of the Columbia, Newberry and Laurens Railroad.",
+      "base": "In 1890, when Christmas Eve came around, a place called Origin decided it needed its own railroad company because another one opened up nearby.",
+      "fine_tuned": "It was started in 1890 by a railroad company called the Columbia, Newberry and Laurens Railroad."
+    },
+    {
+      "source": "Conversely, bills proposed by the Law Commission, and consolidation bills, start in the House of Lords.",
+      "base": "Opposite to that, proposals made by the Law Commission and consolidation bills begin in the House of Lords.",
+      "fine_tuned": "Bills proposed by the Law Commission or a consolidation bill start in the House of Lords."
+    },
+    {
+      "source": "In the years before his final release in 1474, when he began preparations for the reconquest of Wallachia, Vlad resided with his new wife in a house in the Hungarian capital.",
+      "base": "Before he was released in 1474, Vlad started planning to take over Wallachia. He lived with his new wife in a house in the Hungarian capital city while doing this.",
+      "fine_tuned": "He lived with his new wife in a house in the Hungarian capital."
+    },
+    {
+      "source": "You may add a passage of up to five words as a Front-Cover Text, and a passage of up to 25 words as a Back-Cover Text, to the end of the list of Cover Texts in the Modified Version.",
+      "base": "You can put up to five words on the front cover and up to 25 words on the back cover for your book. Put these at the end of the list of covers in the new version.",
+      "fine_tuned": "You can add a front cover text or back cover text at the end of the list of Cover Texts in the Modified Version."
+    },
+    {
+      "source": "He is interred in the Restvale Cemetery in Alsip, Illinois.",
+      "base": "He is buried at Restvale Cemetery in Alsip, Illinois.",
+      "fine_tuned": "He was buried at Restvale Cemetery in Alsip, Illinois."
+    },
+    {
+      "source": "Bone marrow is the flexible tissue found in the hollow interior of bones.",
+      "base": "Bone marrow is like soft, spongy material inside your bones that helps make blood cells.",
+      "fine_tuned": "Bone marrow is a soft tissue inside bones."
+    },
+    {
+      "source": "Reflection nebulae are usually blue because the scattering is more efficient for blue light than red (this is the same scattering process that gives us blue skies and red sunsets).",
+      "base": "Reflection nebulae often appear blue because blue light scatters better than red light during this process. This is similar to how we see blue sky and a red sunset.",
+      "fine_tuned": "Reflection nebulae are usually blue because the scattering is more efficient for blue light than red. This is the same scattering process that gives us blue skies and red sunsets."
+    },
+    {
+      "source": "Monteux is a commune of the Vaucluse département in southern France, in the area Provence-Alpes-Côte d'Azur.",
+      "base": "Monteux is a small town in the Vaucluse department of southeastern France, located in the region known as the Provence-Alpes-Côte d'Azur.",
+      "fine_tuned": "Monteux is a commune. It is found in the Vaucluse department of southeastern France."
+    },
+    {
+      "source": "MacGruber starts asking for simple objects to make something to defuse the bomb, but he is later distracted by something (usually involving his personal life) that makes him run out of time.",
+      "base": "MacGruber asks for easy things to fix a bomb, but then gets sidetracked by stuff related to his personal life, so he's late.",
+      "fine_tuned": "MacGruber asks for simple things to make something to defuse the bomb, but he is later distracted by something (usually involving his personal life). He runs out of time."
+    },
+    {
+      "source": "This was substantially complete when Messiaen died, and Yvonne Loriod undertook the final movement's orchestration with advice from George Benjamin.",
+      "base": "Yvonne Loriod worked on completing the final part of it after Maurice's death, and she used George Benjamin's advice to do so.",
+      "fine_tuned": "Messiaen had completed most of the work before he died. Yvonne Loriod finished the last part of the piece."
+    },
+    {
+      "source": "Shi'a Muslims consider Karbala to be one of their holiest cities after Mecca, Medina, Jerusalem and Najaf.",
+      "base": "Shi'a Muslims think Karbala is very important, like how some people think of a special place called Mecca.",
+      "fine_tuned": "The Shi'a Muslims think that Karbala is one of their most holy places."
+    },
+    {
+      "source": "The PAD called for the resignation of the governments of Thaksin Shinawatra, Samak Sundaravej and Somchai Wongsawat, whom the PAD accused of being proxies for Thaksin.",
+      "base": "The PAD asked that Thaksin's friends Samak and Somchai leave their jobs because they were working for Thaksin.",
+      "fine_tuned": "The PAD asked the governments of Thaksin Shinawatra, Samak Sundaravej and Somchai Wongsawat to resign."
+    },
+    {
+      "source": "However travel through very remote areas, on isolated tracks, requires advance planning and a suitable, reliable vehicle (usually a four wheel drive).",
+      "base": "Traveling to very remote places usually means using special roads that are hard to find. You need to plan ahead for your trip because these roads can be tricky to get to. The best way to go is by car that has lots of wheels so it can handle rough paths. This kind of car is called a 4-wheel drive.",
+      "fine_tuned": "Traveling to these places is difficult because they are far from towns or cities."
+    },
+    {
+      "source": "While at Kahn he was chief architect for the Fisher Building in 1928.",
+      "base": "At Kahn's place, he worked as the chief architect for the Fisher Building in 1928.",
+      "fine_tuned": "He worked on the Fisher Building in 1928."
+    },
+    {
+      "source": "He excuses himself because he has to leave for rehearsal, and he and Dr. Schön leave.",
+      "base": "He leaves early because he needs to go to a rehearsal, so he and Dr. Schön depart.",
+      "fine_tuned": "He leaves because he has to go to a rehearsal."
+    },
+    {
+      "source": "Britpop emerged from the British independent music scene of the early 1990s and was characterised by bands influenced by British guitar pop music of the 1960s and 1970s.",
+      "base": "Britpop came from the UK's independent music scene in the early 1990s. It was made up of bands that were inspired by British rock music from the 1960s and 1970s.",
+      "fine_tuned": "The term \"britpop\" is used to describe a style of rock music that originated in Britain during the early 1990s. Britpop is often compared to the British rock of the 1960s and 1970s."
+    },
+    {
+      "source": "This was absorbed into battalions being formed for XI International Brigade.",
+      "base": "It went into the battalions that were making up the XI International Brigade.",
+      "fine_tuned": "It became part of the XI International Brigade."
+    },
+    {
+      "source": "The Sheppard line currently has fewer users than the other two subway lines, and shorter trains are run.",
+      "base": "The Sheppard line now has fewer people using it than the other two subway lines, and they run shorter train trips.",
+      "fine_tuned": "Sheppard Line is not as popular as the other two lines."
+    },
+    {
+      "source": "It has a capacity of 98,772, making it the largest stadium in Europe, and the eleventh largest in the world.",
+      "base": "It can hold 98, 772 people, which makes it the biggest stadium in Europe and the 11th biggest worldwide.",
+      "fine_tuned": "The stadium can hold 98,772 people, which makes it the biggest stadium in Europe."
+    },
+    {
+      "source": "In December, 1967, Ten Boom was honored as one of the Righteous Among the Nations by the State of Israel.",
+      "base": "In December 1967, someone named Ten Boom got a special award from Israel for being very good during hard times.",
+      "fine_tuned": "In December, 1967, she was honored as one of the Righteous Among the Nations by the State of Israel."
+    },
+    {
+      "source": "Some articles are quite lengthy and rich in content while others are shorter (possibly stubs) and of lesser quality.",
+      "base": "Some articles are very long and full of information, while others are shorter (maybe just a basic outline) and not as good.",
+      "fine_tuned": "Some articles are very long and have a lot of information. Some articles are shorter and less important."
+    },
+    {
+      "source": "About 95 species are currently accepted.",
+      "base": "There are about 95 different kinds that we know about right now.",
+      "fine_tuned": "There are about 95 species."
+    },
+    {
+      "source": "Eugowra is said to be named after the Indigenous Australian word meaning \"The place where the sand washes down the hill\".",
+      "base": "Eugowra is thought to have been named by the local Aboriginal people because it's called that because of a special spot on the land where the sand rolls down the hill.",
+      "fine_tuned": "It was named by a local Aboriginal person who thought it looked like the word for \"the place where the sand washes down the hill\" (e.g., \"Wooloomulna\")."
+    },
+    {
+      "source": "Terms such as \"undies\"for underwear and\"movie\"for\"moving picture\" are oft-heard terms in English.",
+      "base": "The words \"underwear\" for undies and \"moving picture\" for movie are often used in English.",
+      "fine_tuned": "The word for underwear is undies or tights. The word for movie is movie."
+    },
+    {
+      "source": "Jurisdiction draws its substance from public international law, conflict of laws, constitutional law and the powers of the executive and legislative branches of government to allocate resources to best serve the needs of its native society.",
+      "base": "Jurisdiction is based on rules about how different countries handle each other's legal issues, decide which country has authority over a situation, and follow certain guidelines for spending money that belongs to everyone.",
+      "fine_tuned": "It is based on public international law, conflict of laws, constitutional law and the powers of the executive and legislative branches of government to allocate resources to best serve the needs of its native society."
+    },
+    {
+      "source": "He followed this with several other pieces about Hiawatha: The Death of Minnehaha, Overture to The Song of Hiawatha and Hiawatha's Departure.",
+      "base": "He wrote more articles about Hiawatha: \"The Death of Minnehaha,\" an \"Overture to The Song of Hiawatha,\" and \"Hiawatha's Departure.\"",
+      "fine_tuned": "He wrote a number of pieces about Hiawatha: \"The Death of Minnehaha\", \"Overture to The Song of Hiawatha\" and \"Hiawatha's Departure\"."
+    },
+    {
+      "source": "The capital of the state is Aracaju (pop.",
+      "base": "The capital city of the state is called Aracaju. It has a population of approximately 120,000 people.",
+      "fine_tuned": "The capital of the state is Aracaju."
+    },
+    {
+      "source": "Despite this, Farrenc was paid less than her male counterparts for nearly a decade.",
+      "base": "Farrenc got paid less than men who did similar jobs for about 10 years.",
+      "fine_tuned": "Farrenc was paid less than men for almost a decade."
+    },
+    {
+      "source": "Gumbasia was created in a style Vorkapich taught called Kinesthetic Film Principles.",
+      "base": "Gumbasia came from a special way of making movies that someone named Vorkapich showed others how to do.",
+      "fine_tuned": "It is made using Kinesthetic Film Principles."
+    },
+    {
+      "source": "The lawyer, Brandon (Waise Lee), became his idol, and MK Sun grew up to be a lawyer.",
+      "base": "Brandon (played by Waise Lee) was Brandon's hero, and when MK Sun grew up, he too became a lawyer.",
+      "fine_tuned": "He was inspired by Brandon, who is a lawyer."
+    },
+    {
+      "source": "ISBN 1-876429-14-3 is an historic township located near Cowra in the central west of New South Wales, Australia in Cabonne Shire.",
+      "base": "ISBN 1-876429-14-3 is a historical town called Cabonne that's close to Cowra in the center-west part of New South Wales, Australia.",
+      "fine_tuned": "ISBN 1-876429-14-3 is a town in New South Wales, Australia. It is near Cowra."
+    },
+    {
+      "source": "Military career Donaldson enlisted in the Australian Army on 18 June 2002.",
+      "base": "Donaldson joined the Australian Army on June 18, 2002.",
+      "fine_tuned": "He joined the Australian Army on 18 June 2002."
+    },
+    {
+      "source": "Prospectors from California, Europe and China were also digging along the Peel River and up the mountain slopes.",
+      "base": "People from California, Europe, and China were looking for gold near the Peel River and on the mountains.",
+      "fine_tuned": "People from California, Europe and China were also looking for gold on the river and mountains."
+    },
+    {
+      "source": "Before the advent of the pocket calculator, it was the most commonly used calculation tool in science and engineering.",
+      "base": "Before calculators became small enough to fit in your pocket, they were one of the most popular tools for doing math in fields like science and engineering.",
+      "fine_tuned": "It is still widely used today for scientific calculations."
+    },
+    {
+      "source": "The Kindle 2 features 16-level grayscale display, improved battery life, 20 percent faster page-refreshing, a text-to-speech option to read the text aloud, and overall thickness reduced from 0.8 to 0.36 inches (9.1 millimeters).",
+      "base": "The new Kindle 2 has an enhanced screen that shows shades of gray, longer battery life, quicker pages turning, a voice reading feature for listening to books, and it's thinner at just 0.36 inches compared to its predecessor's 0.8 inch.",
+      "fine_tuned": "It has a 16-level grayscale display, improved battery life, 20% faster page-refreshing, a text-to-speech option to read the text aloud, and overall thickness reduced from 0.8 to 0.36 inches (9.1 mm)."
+    },
+    {
+      "source": "Yoghurt or yogurt is a dairy product produced by bacterial fermentation of milk.",
+      "base": "Yogurt is made from milk that's turned into cheese using bacteria.",
+      "fine_tuned": "Yogurt is made from milk that has been fermented by bacteria."
+    },
+    {
+      "source": "Seventy-five defencemen are in the Hall of Fame, more than any other current position, while only 35 goaltenders have been inducted.",
+      "base": "There are 75 defensemen in the Hall of Fame, which is more than any other position currently, but only 35 goalies have been inducted.",
+      "fine_tuned": "There are seventy-five defencemen in the Hall of Fame, which is more than any other current position. Only thirty-five goalies have been inducted."
+    },
+    {
+      "source": "Alternative views on the subject have been proposed throughout the centuries (see below), but all were rejected by mainstream Christian bodies.",
+      "base": "Different ideas about the topic have been suggested over many years (as shown below), but they were not accepted by most Christians who follow traditional beliefs.",
+      "fine_tuned": "Other ideas about the subject have been suggested over the years, but they were not accepted by mainstream Christians."
+    },
+    {
+      "source": "The album, however, was banned from many record stores nationwide.",
+      "base": "But the album wasn't allowed in most music stores across the country.",
+      "fine_tuned": "However, it was not sold at many record stores."
+    },
+    {
+      "source": "The legs are wide at the top, and narrow at the ankle.",
+      "base": "The legs are wider at the top and narrower at the bottom.",
+      "fine_tuned": "They have a wide base and narrow ends."
+    },
+    {
+      "source": "In late 2004, Suleman made headlines by cutting Howard Stern's radio show from four Citadel stations, citing Stern's frequent discussions regarding his upcoming move to Sirius Satellite Radio.",
+      "base": "In December 2004, Suleman caused a lot of news when he stopped Howard Stern's radio program on four different stations. He did this because Stern talked about moving to another company called Sirius Satellite Radio often.",
+      "fine_tuned": "Suleman cut Howard Stern's radio show from four Citadel stations after he said that he was going to leave Sirius Satellite Radio."
+    },
+    {
+      "source": "The company opened twice as many Canadian outlets as McDonald's \"Wendy's confirms Tim Hortons IPO by March\", Ottawa Business Journal, December 1, 2005, and system-wide sales also surpassed those of McDonald's Canadian operations as of 2002.",
+      "base": "Tim Hortons announced its initial public offering (IPO) on March 1, 2005, according to a report from the Ottawa Business Journal. The company opened more than double the number of Canadian outlets compared to McDonald's, Wendy's. System-wide sales at Tim Hortons exceeded those of McDonald's Canadian operations by 2002.",
+      "fine_tuned": "Tim Hortons has more than double the number of stores that Wendy's does."
+    },
+    {
+      "source": "Plot Captain Caleb Holt (Kirk Cameron) is a firefighter in Albany, Georgia and firmly keeps the cardinal rule of all firemen, \"Never leave your partner behind\".",
+      "base": "Captain Caleb Holt, played by Kirk Cameron, is a firefighter in Albany, Georgia. He always follows the cardinal rule that firefighters must follow: \"Never leave your partner behind.\"",
+      "fine_tuned": "Captain Caleb Holt (played by Kirk Cameron) is a firefighter in Albany, Georgia. He follows the cardinal rule of all firefighters: \"Never leave your partner behind.\""
+    },
+    {
+      "source": "He won the presidential election held on 2 March 2008 with 71.25% of the popular vote.",
+      "base": "In March 2008, he was elected president by winning 71.25% of the votes.",
+      "fine_tuned": "In 2008 he was elected president by a large margin."
+    },
+    {
+      "source": "The plant is considered a living fossil.",
+      "base": "The plant is like an ancient living thing.",
+      "fine_tuned": "It is called a \"living fossil\"."
+    },
+    {
+      "source": "In 1990, she was the only female entertainer allowed to perform in Saudi Arabia.",
+      "base": "In 1990, she was the only woman performer allowed to do shows in Saudi Arabia.",
+      "fine_tuned": "She is the first woman to be allowed to perform in Saudi Arabia."
+    },
+    {
+      "source": "Orchestration Stravinsky first conceived of writing the ballet in 1913.",
+      "base": "Stravinsky started thinking about making a ballet in 1913.",
+      "fine_tuned": "Stravinsky wrote the ballet in 1913."
+    },
+    {
+      "source": "Protests across the nation were suppressed.",
+      "base": "Protests all over the country were stopped or prevented.",
+      "fine_tuned": "Protests were stopped by police."
+    },
+    {
+      "source": "Offenbach's numerous operettas, such as Orpheus in the Underworld, and La belle Hélène, were extremely popular in both France and the English-speaking world during the 1850s and 1860s.",
+      "base": "Offenbach had lots of fun musical plays called operettas. His most famous ones, like \"Orpheus in the Underworld\" and \"La belle Hélène,\" were very popular all over Europe and America in the 1850s and 1860s.",
+      "fine_tuned": "His most famous works are \"Orphée aux Enfers\" (1857) and \"La Belle Hélène\"."
+    },
+    {
+      "source": "Roof tiles dating back to the Tang Dynasty with this symbol have been found west of the ancient city of Chang'an (modern-day Xian).",
+      "base": "Some old roof tiles from a long time ago, from the Tang Dynasty, were found near an old city called Chang'an. Now it's called Xi'an today.",
+      "fine_tuned": "Roof tiles dating back to the Tang Dynasty with this symbol were found west of the ancient city of Chang'an."
+    },
+    {
+      "source": "Jeanne Marie-Madeleine Demessieux (February 13, 1921 November 11, 1968), was a French organist, pianist, composer, and pedagogue.",
+      "base": "Jeanne Marie-Madeleine Demessieux (born February 13, 1921, died November 11, 1968) was a French musician who played the piano, composed music, taught others how to play, and helped educate people about music.",
+      "fine_tuned": "Jeanne Marie-Madeleine Demessieux (February 13, 1921 – November 11, 1968) was a French organist, pianist, composer, and teacher."
+    },
+    {
+      "source": "By most accounts, the instrument was nearly impossible to control.",
+      "base": "Most people say it's very hard to use.",
+      "fine_tuned": "It was difficult to play because of its size."
+    },
+    {
+      "source": "Santa Maria Maggiore (St. Mary the Greater), the earliest extant church in Assisi.",
+      "base": "Santa Maria Maggiore is the oldest existing church in Assisi.",
+      "fine_tuned": "It is the oldest church in Assisi."
+    },
+    {
+      "source": "Characteristics Radar observations indicate a fairly pure iron-nickel composition.",
+      "base": "The radar observations show that the material has mostly iron-nickel characteristics.",
+      "fine_tuned": "Radar observations show that it is mostly iron-nickel."
+    },
+    {
+      "source": "Railway Gazette International is a monthly business journal covering the railway, metro, light rail and tram industries worldwide.",
+      "base": "Railway Gazette International is an international monthly business magazine that focuses on railways, metros, light rail systems, and trams around the world.",
+      "fine_tuned": "The Railway Gazette International is an international magazine about railways."
+    },
+    {
+      "source": "He was appointed Companion of Honour (CH) in 1988.",
+      "base": "In 1988, he became a Companion of Honour (CH).",
+      "fine_tuned": "In 1988 he became a Companion of Honour."
+    },
+    {
+      "source": "Loèche harbours the installations of Onyx, the Swiss interception system for electronic intelligence gathering.",
+      "base": "Onyx is a Swiss system that intercepts electronic signals to gather information. Loèche has its installation there.",
+      "fine_tuned": "Onyx is a Swiss military installation that collects information about other countries."
+    },
+    {
+      "source": "A matchbook is a small cardboard folder (matchcover) enclosing a quantity of matches and having a coarse striking surface on the exterior.",
+      "base": "A matchbook is like a little box made of thin paper that holds matches. It has rough spots on its outside where you can strike the matches to light them.",
+      "fine_tuned": "A matchbook is a small cardboard box that contains a number of matches."
+    },
+    {
+      "source": "She was among the first doctors to object to cigarette smoking around children, and drug use in pregnant women.",
+      "base": "She was one of the early people who said no to kids being near cigarettes and to drugs when a woman is pregnant.",
+      "fine_tuned": "She was one of the first doctors to say that cigarettes should not be smoked by children."
+    },
+    {
+      "source": "Defiantly, she vowed to never renounce the Commune, and dared the judges to sentence her to death.",
+      "base": "She bravely said she would never give up on the Commune, and challenged the judges to put her to death.",
+      "fine_tuned": "She said that she would not give up the Commune, and dared the judges to sentence her to death."
+    },
+    {
+      "source": "OEL manga series Graystripe's Trilogy There is a three volume original English-language manga series following Graystripe, between the time that he was taken by Twolegs in Dawn until he returned to ThunderClan in The Sight.",
+      "base": "There's a three-book Japanese comic book called \"Graystripe's Trilogy.\" It tells the story of Graystripe from when he was captured by humans in \"Dawn\" up until he came back to his cat clan in \"The Sight.\"",
+      "fine_tuned": "There is also an English language manga called \"Graystripe's Trilogy\" which follows Graystripe from when he was taken by Twolegs in Dawn until he returned to ThunderClan in The Sight."
+    },
+    {
+      "source": "Samovar & Porter (1994), p. 84 Syrians did not congregate in urban enclaves; many of the immigrants who had worked as peddlers were able to interact with Americans on a daily basis.",
+      "base": "In 1994, Samovar and Porter said that Syrian people didn't live mostly in cities alone. Many Syrian immigrants who used to sell things walked around and talked to Americans every day.",
+      "fine_tuned": "Samovar & Porter (1994) says that Syrian people did not live together in cities like they do today. Many of the immigrants who had worked as peddlers could talk to Americans every day."
+    },
+    {
+      "source": "He was also famous for his prints, book covers, posters, and garden metalwork furniture.",
+      "base": "He was well-known for his prints, book covers, posters, and garden metal furniture.",
+      "fine_tuned": "He is known for his prints, book covers, posters, and garden metalwork furniture."
+    },
+    {
+      "source": "During childhood she suffered from collapsed lungs twice, she had pneumonia 4-5 times a year, a ruptured appendix, and had a tonsillar cyst.",
+      "base": "She had two collapsed lungs as a child, got pneumonia four to five times per year, her appendix burst, and she had a tonsil cyst.",
+      "fine_tuned": "She had pneumonia four or five times a year, a ruptured appendix, and had a tonsillar cyst."
+    },
+    {
+      "source": "Dr. David Lindenmeyer (Australian National University) has argued that the need for nest boxes indicates that logging practices are not ecologically sustainable, for conserving hollow-dependent species like Leadbeater's possum.",
+      "base": "Dr. David Lindenmeyer, from Australian National University, says we need more nest boxes because logging isn't good for animals that live inside trees, especially a special type of possum called Leadbeater's possum.",
+      "fine_tuned": "Dr. David Lindenmeyer of Australian National University argues that logging is not ecologically sustainable because it destroys the habitat of many species including the Leadbeater's Possum."
+    },
+    {
+      "source": "The Montreal Canadiens are a professional ice hockey team based in Montreal, Quebec, Canada.",
+      "base": "The Montreal Canadiens are a top ice hockey club that plays in Montreal, Quebec, Canada.",
+      "fine_tuned": "The Montreal Canadiens are an ice hockey team from Montreal, Quebec."
+    },
+    {
+      "source": "Small value inductors can also be built on integrated circuits using the same processes that are used to make transistors.",
+      "base": "Tiny coils of wire can fit onto chips just like tiny switches.",
+      "fine_tuned": "Small value inductors can also be made by putting together many small pieces of wire."
+    },
+    {
+      "source": "The term gribble was originally assigned to the wood-boring species, especially the first species described from Norway by Rathke in 1799, Limnoria lignorum.",
+      "base": "The word \"gribble\" used to be given to a type of wood-eating creature, particularly the very first one discovered in Norway by Rathke in 1799, called Limnoria lignorum.",
+      "fine_tuned": "The name \"gribble\" is used for the wood boring species of the genus Limnoria."
+    },
+    {
+      "source": "The wounds inflicted by a club are generally known as bludgeoning or blunt-force trauma injuries.",
+      "base": "Club wounds usually get called bludgeoning or soft tissue injuries.",
+      "fine_tuned": "Blunt force trauma is when someone gets hurt from hitting something hard on their body."
+    },
+    {
+      "source": "Thereafter the county's administration was conducted at Duns or Lauder until Greenlaw became the county town in 1596.",
+      "base": "After that, the county was run from Duns or Lauder until Greenlaw became the county seat in 1596.",
+      "fine_tuned": "The county's government was held at Duns or Lauder until Greenlaw became the county town in 1596."
+    },
+    {
+      "source": "No skater has yet accomplished a quadruple Axel in competition.",
+      "base": "No one has ever done four full flips on ice before in big competitions.",
+      "fine_tuned": "No skater has done a quadruple Axel in competition."
+    },
+    {
+      "source": "From the telephone exchange, the Port Jackson District Commandant could communicate with all military installations on the harbour.",
+      "base": "The boss of a group called Port Jackson District Command had a way to talk to all the places where soldiers were stationed near the water.",
+      "fine_tuned": "The Port Jackson District Commandant could talk to all military installations on the harbor."
+    },
+    {
+      "source": "However, even to those who enter the prayer hall of a mosque without the intention of praying, there are still rules that apply.",
+      "base": "Even if someone goes into a mosque's prayer room without wanting to pray, they still have to follow certain rules.",
+      "fine_tuned": "Even if someone enters a mosque without intending to pray, they must follow some rules."
+    },
+    {
+      "source": "It is described as pointed in the face and about the size of a rabbit.",
+      "base": "It's shaped like a point on your face and about the same size as a small rabbit.",
+      "fine_tuned": "It has a pointy face and is about the size of a rabbit."
+    },
+    {
+      "source": "Computer performance is characterized by the amount of useful work accomplished by a computer system compared to the time and resources used.",
+      "base": "Computer speed is measured by how much good stuff it does for you each day, compared to how long it takes and what it needs.",
+      "fine_tuned": "The measure of how much work a computer can do per unit of time is called its \"performance\"."
+    },
+    {
+      "source": "Some of the largest reservoirs in the world can be found along the Volga.",
+      "base": "Many big water tanks are located near the Volga River.",
+      "fine_tuned": "The biggest reservoirs are on the Volga River."
+    },
+    {
+      "source": "The crosier symbolises the monasteries of the region.",
+      "base": "The cross-shaped staff represents the monasteries in that area.",
+      "fine_tuned": "It is a cross that represents the monks of the area."
+    },
+    {
+      "source": "Human skin hues can range from very dark brown to very pale pink.",
+      "base": "Human skin colors vary widely; they can be anywhere from a very dark brown to a very light pink.",
+      "fine_tuned": "The color of human skin ranges from very dark brown to very light pink."
+    },
+    {
+      "source": "Bankers from ShoreBank, a community development bank in Chicago, helped Yunus with the official incorporation of the bank under a grant from the Ford Foundation.",
+      "base": "Some bankers from a bank called ShoreBank in Chicago helped a man named Yunus start his new bank by getting it officially set up with money from an organization called the Ford Foundation.",
+      "fine_tuned": "The Bankers from ShoreBank, a community development bank in Chicago, helped Yunus with the official incorporation of the bank."
+    },
+    {
+      "source": "Bremer reported plans to put Saddam on trial, but claimed that the details of such a trial had not yet been determined.",
+      "base": "Bremer said he wants Saddam to be tried, but he doesn't know all the important details about how it will happen yet.",
+      "fine_tuned": "Bremer said he would try Saddam Hussein, but did not say how it would be done."
+    },
+    {
+      "source": "Representatives of the Professional Hockey Writers' Association vote for the All-Star Team at the end of the regular season.",
+      "base": "The professional hockey writers choose the All-Star team at the end of the regular season.",
+      "fine_tuned": "The players vote to choose their team."
+    },
+    {
+      "source": "Tajikistan, Turkmenistan and Uzbekistan border Afghanistan to the north, Iran to the west, Pakistan to the south and the People's Republic of China to the east.",
+      "base": "These countries - Tajikistan, Turkmenistan, and Uzbekistan - are next to Afghanistan on their northern side. They also share borders with Iran to the west, Pakistan to the south, and China to the east.",
+      "fine_tuned": "It borders Tajikistan, Kyrgyzstan, Uzbekistan, Turkmenistan, Iran and Afghanistan."
+    },
+    {
+      "source": "Nupedia was founded on March 9, 2000, under the ownership of Bomis, Inc, a web portal company.",
+      "base": "Nupedia started on March 9, 2000, when it belonged to Bomis, Inc., which is a website company.",
+      "fine_tuned": "It was started by Bomis, Inc., which owns it."
+    },
+    {
+      "source": "Notable features of the design include key-dependent S-boxes and a highly complex key schedule.",
+      "base": "The important parts of the design are special boxes that change based on which keys you use, and a very complicated way to choose different keys.",
+      "fine_tuned": "The design has several notable features: key-dependent S-boxes and a very complex key schedule."
+    },
+    {
+      "source": "Iain Grieve (born 19 February, 1987 in Jwaneng, Botswana) is a rugby union back-rower for Bristol Rugby in the Guinness Premiership.",
+      "base": "Iain Grieve was born on February 19, 1987, in Jwaneng, Botswana. He plays as a back rower for Bristol Rugby in the Guinness Premiership.",
+      "fine_tuned": "Iain Grieve (born 19 February 1987) is a South African rugby player. He plays for Bristol Rugby."
+    },
+    {
+      "source": "Other nearby settlements include Pont-Bellanger and Beaumesnil.",
+      "base": "Other nearby villages are Pont-Bellanger and Beaumesnil.",
+      "fine_tuned": "The other villages are Pont-Bellanger and Beaumesnil."
+    },
+    {
+      "source": "The quark model was independently proposed by physicists Murray Gell-Mann and George Zweig in 1964.",
+      "base": "In 1964, two physicists named Murray Gell-Mann and George Zweig came up with the idea of quarks on their own.",
+      "fine_tuned": "In 1964, two scientists named Murray Gell-Mann and George Zweig came up with a new theory about how protons and neutrons are made of smaller particles called \"quarks\"."
+    },
+    {
+      "source": "The fourth ring is decorated with golden garlands and was added in 1938 39 when the column was moved to its present location.",
+      "base": "The fourth circle has a gold garland around it. It was put there in 1938-39 when they moved the pillar to where it's now located.",
+      "fine_tuned": "In 1938-1939, the column was moved to its current position."
+    },
+    {
+      "source": "West Berlin had its own postal administration, separate from West Germany's, which issued its own postage stamps until 1990.",
+      "base": "In West Berlin, there was a special postal system that wasn't part of West Germany's overall postal service. This system used its own stamps to send mail until 1990.",
+      "fine_tuned": "The city of West Berlin also had its own postal system."
+    },
+    {
+      "source": "The Primavera is a painting by the Italian Renaissance painter Sandro Botticelli, c. 1482.",
+      "base": "The Primavera is an artwork created by the famous Italian artist Sandro Botticelli around 1482.",
+      "fine_tuned": "Primavera (Italian: \"Spring\") is an oil on wood painting by Sandro Botticelli."
+    },
+    {
+      "source": "New South Wales's largest city and capital is Sydney.",
+      "base": "Sydney is New South Wales's biggest city and capital.",
+      "fine_tuned": "The biggest city of New South Wales is Sydney."
+    },
+    {
+      "source": "The polymer is most often epoxy, but other polymers, such as polyester, vinyl ester or nylon, are also sometimes used.",
+      "base": "The plastic is usually made of epoxy, but it can also be made from other materials like polyester, vinyl ester, or nylon.",
+      "fine_tuned": "It can be made of plastic (such as polyethylene), metal, glass, wood, paper, rubber, or even living tissue."
+    },
+    {
+      "source": "The name survives as a brand for a related spin-off digital television channel, digital radio station, and website which have survived the demise of the printed magazine.",
+      "base": "The name is still used to sell things on TV, radio, and online. It's like when you keep your favorite toy even if your old game stopper doesn't work anymore.",
+      "fine_tuned": "It is still used to refer to a digital television channel, digital radio station, and website that are all based on the magazine."
+    },
+    {
+      "source": "At four-and-a-half years old he was left to fend for himself on the streets of northern Italy for the next four years, living in various orphanages and roving through towns with groups of other homeless children.",
+      "base": "When a boy was 4-1/2 years old, he had to take care of himself on the streets of northern Italy for another 4 years. He lived in different orphanages and wandered around towns with other homeless kids who also didn't have homes.",
+      "fine_tuned": "He lived in many orphanages and wandered around with a group of other homeless children."
+    },
+    {
+      "source": "Stands were eventually added behind each set of goals during the 1980s and 1990s as the ground began to be modernised.",
+      "base": "In the 1980s and 1990s, more stands were put up behind each goal because they started making the place look new and better.",
+      "fine_tuned": "In the 1980s and 1990s, stands were built behind each goal."
+    },
+    {
+      "source": "A town may be correctly described as a market town or as having market rights even if it no longer holds a market, provided the right to do so still exists.",
+      "base": "A town can be called a market town or have market rights even if it doesn't hold a market anymore, as long as they still have that right.",
+      "fine_tuned": "A town may have market rights even if it does not hold a market anymore."
+    },
+    {
+      "source": "A bastion on the eastern approaches was built later.",
+      "base": "A strong fort was set up later for protection along the eastern side.",
+      "fine_tuned": "Later a bastion was built on the eastern side."
+    },
+    {
+      "source": "Events Europe July 29 — Battle of Stiklestad (Norway): Olav Haraldsson loses to his pagan vassals and is killed in the battle.",
+      "base": "On July 29, a big fight happened near Stiklestad in Norway. King Olaf Haraldson lost against his pagan friends there and was hurt badly during the battle.",
+      "fine_tuned": "Olaf Haraldson lost a battle against his pagan vassals at Stiklestad on July 29, 1076."
+    },
+    {
+      "source": "Others have theorized that Tresca was eliminated by the NKVD as retribution for criticism of the Stalin regime of the Soviet Union.",
+      "base": "Some people thought that Tresca got killed because he didn't like how the Communist government in Russia treated its people.",
+      "fine_tuned": "Some people think that Tresca was killed because he criticized the Stalin regime of the Soviet Union."
+    },
+    {
+      "source": "This resulted in both Montenegro and Serbia becoming independent countries.",
+      "base": "Both Montenegro and Serbia became separate nations.",
+      "fine_tuned": "Both Montenegro and Serbia became independent countries."
+    },
+    {
+      "source": "Use HTML and CSS markup sparingly and only with good reason.",
+      "base": "Use HTML and CSS as much as you need to, but do so wisely.",
+      "fine_tuned": "Use HTML and CSS sparingly and only when necessary."
+    },
+    {
+      "source": "Schuschnigg immediately responded publicly that reports of riots were false.",
+      "base": "Schuschnigg said right away that there weren't any riots when people told him so.",
+      "fine_tuned": "He said that there had been no riots."
+    },
+    {
+      "source": "Addiscombe is a suburb in the London Borough of Croydon, England.",
+      "base": "Addiscombe is a neighborhood in Croydon, a part of Greater London, in England.",
+      "fine_tuned": "Addiscombe is a suburb of Croydon, Surrey, England."
+    },
+    {
+      "source": "Depending on the context, another closely-related meaning of constituent is that of a citizen residing in the area governed, represented, or otherwise served by a politician; sometimes this is restricted to citizens who elected the politician.",
+      "base": "When you look at it from different angles, \"constituent\" can mean someone living in an area where a leader works. This usually refers to people who voted for that leader. Sometimes, though, it's just about those who chose that person as their representative.",
+      "fine_tuned": "Another closely related meaning of \"constituent\" is that of a citizen living in the area governed, represented, or otherwise served by a politician."
+    },
+    {
+      "source": "Prunk is a member of Institute of European History in Mainz, and a senior fellow of the Center for European Integration Studies in Bonn.",
+      "base": "Prunk is part of the Institute of European History in Mainz and works as a senior fellow at the Center for European Integration Studies in Bonn.",
+      "fine_tuned": "He is a member of the Institute of European History in Mainz. He is also a senior fellow of the Center for European Integration Studies in Bonn."
+    },
+    {
+      "source": "Stallone also had a cameo appearance in the 2003 French film Taxi 3 as a passenger.",
+      "base": "Stallone was in a small part in the 2003 movie \"Taxi 3\" from France, where he appeared as someone else's passenger.",
+      "fine_tuned": "He appeared in the movie \"Taxi 3\" as a passenger."
+    },
+    {
+      "source": "Instead, the crew fashioned a trailer with a cantilevered arm attached to the \"hovercraft\" and shot the scene while riding up Templin Highway north of Santa Clarita.",
+      "base": "The team made a trailer using an arm that sticks out from the hovercraft. They then filmed the scene as they drove on the Templeton Highway near Santa Clarita.",
+      "fine_tuned": "The crew made a trailer with an arm that could be raised or lowered. They shot the scene while riding up Templin Highway north of Santa Clarita."
+    },
+    {
+      "source": "The conference papers were published the next year in a bookMicroeconomic Foundations of Employment and Inflation Theory by Phelps et al.",
+      "base": "The papers from the conference were included in a book called \"Microeconomic Foundations of Employment and Inflation Theory\" written by Phelps et al. The book was published the following year.",
+      "fine_tuned": "The conference papers were published the next year in a book called \"Microeconomic Foundations of Employment and Inflation Theory\"."
+    },
+    {
+      "source": "Wario Land The Wario Land series is a platforming series that started with Wario Land: Super Mario Land 3, a spin-off of the Super Mario Land series.",
+      "base": "The Wario Land series is a platform game that began with Wario Land: Super Mario Land 3, which came from the Super Mario Land games.",
+      "fine_tuned": "The Wario Land series is a platform game series created by Nintendo. It was first released as \"Super Mario Land 3\"."
+    },
+    {
+      "source": "Frédéric Chopin's Opus 57 is a berceuse for solo piano.",
+      "base": "Frédéric Chopin wrote a soft song called \"Berceuse\" just for one person to play on the piano by themselves.",
+      "fine_tuned": "Op. 57 is a piece of music by Frédéric Chopin."
+    },
+    {
+      "source": "These attacks may have been psychological in origin rather than physical.",
+      "base": "These attacks might not have been caused by physical harm; they could be more about feelings or thoughts.",
+      "fine_tuned": "They were probably not real but just a way to make people feel bad."
+    },
+    {
+      "source": "A historian has stated that \"it was quinine's efficacy that gave colonists fresh opportunities to swarm into the Gold Coast, Nigeria and other parts of west Africa\".",
+      "base": "A historian said that it was because quinine worked well that people could go to places like Ghana and Nigeria more easily.",
+      "fine_tuned": "A historian said that it was quinine's effectiveness that gave colonists new chances to go into the Gold Coast, Nigeria and other parts of West Africa."
+    },
+    {
+      "source": "Furthermore, spectroscopic studies have shown evidence of hydrated minerals and silicates, which indicate rather a stony surface composition.",
+      "base": "Spectroscopic studies show that there are hydrated minerals and silicates, suggesting a stony surface composition.",
+      "fine_tuned": "Spectroscopy has also shown that there are hydrated minerals and silicates on the moon's surface."
+    },
+    {
+      "source": "She became the authoritative editor of her husband's works for Breitkopf und Härtel.",
+      "base": "She was the main person who wrote about her husband's books for a company called Breitkopf und Härtel.",
+      "fine_tuned": "She was the editor of his books for Breitkopf & Härtel."
+    },
+    {
+      "source": "Mercury is similar in appearance to the Moon: it is heavily cratered with regions of smooth plains, has no natural satellites and no substantial atmosphere.",
+      "base": "Mercury looks like the Moon: it's covered in craters, has flat areas without craters, doesn't have any moons, and has a thin air.",
+      "fine_tuned": "Like the moon, Mercury is a rocky planet with craters on its surface."
+    },
+    {
+      "source": "Geography The town lies in the Limmat valley between Baden and Zürich.",
+      "base": "The town is located in a valley called the Limmat Valley, which is between two other cities: Baden and Zürich.",
+      "fine_tuned": "The town is in the Limmat Valley between Baden and Zürich."
+    },
+    {
+      "source": "These ideally provide excellent habitat for chinkara, hog deer and blue bull.",
+      "base": "These areas are great places for animals like chinkaras, hog deers, and blue bulls to live.",
+      "fine_tuned": "They are good habitats for chinkaras, hog deer and blue bulls."
+    },
+    {
+      "source": "After the Sena dynasty, Dhaka was successively ruled by the Turkish and Afghan governors descending from the Delhi Sultanate before the arrival of the Mughals in 1608.",
+      "base": "After the Sena dynasty, Dhaka was controlled by Turkish and Afghan rulers who came from the Delhi Sultanate until the time of the Mughals in 1608.",
+      "fine_tuned": "The city was ruled by the Turks and Afghans after the Sena Dynasty."
+    },
+    {
+      "source": "The Prime Minister stays in office only as long as he or she retains the support of the lower house.",
+      "base": "The Prime Minister keeps his job until the House of Representatives agrees to keep him there.",
+      "fine_tuned": "The Prime Minister stays in office until they lose the support of the lower house."
+    },
+    {
+      "source": "For Rowling, this scene is important because it shows Harry's bravery, and by retrieving Cedric's corpse, he demonstrates selflessness and compassion.",
+      "base": "For Rowling, this scene is significant because it highlights Harry's courage and also shows him being compassionate and selfless when he saves Cedric from death.",
+      "fine_tuned": "This scene is very important to Harry Potter because it shows his bravery and selflessness."
+    },
+    {
+      "source": "On June 1, 1972, he and fellow RAF members Jan-Carl Raspe and Holger Meins were apprehended after a lengthy shootout in Frankfurt.",
+      "base": "On June 1, 1972, two other RAF members named Jan-Carl Raspe and Holger Meins were caught along with him after a long gun battle in Frankfurt.",
+      "fine_tuned": "In 1972, he was arrested along with his friends Jan-Carl Raspe and Holger Meins."
+    },
+    {
+      "source": "Together they formed New Music Manchester, a group committed to contemporary music.",
+      "base": "They made up New Music Manchester, a band that loves new kinds of music.",
+      "fine_tuned": "They formed New Music Manchester, a band that played modern music."
+    },
+    {
+      "source": "The compact and intense hurricane caused extreme damage in the upper Florida Keys, as a storm surge of approximately 18 to 20 feet affected the region.",
+      "base": "A big, strong hurricane hit the area near Key West really hard. The water got so high that it was about as tall as your house! This made lots of things fall down and break.",
+      "fine_tuned": "The storm caused severe damage in the Upper Florida Keys. The storm surge was about 18 to 20 feet high."
+    },
+    {
+      "source": "It is now the site of Meher Baba's samadhi (tomb-shrine) as well as facilities and accommodations for pilgrims.",
+      "base": "Now it's where Meher Baba rests and also has special places for people who come to visit him. There are rooms and other things there that help them stay comfortable while they're there.",
+      "fine_tuned": "The place is now a shrine where Meher Baba's tomb is located."
+    },
+    {
+      "source": "The collapsed dome of the main church has been restored entirely.",
+      "base": "The big church's round roof that fell down is all fixed up now.",
+      "fine_tuned": "The collapsed dome of the main church was rebuilt."
+    },
+    {
+      "source": "In 2005, Meissner became the second American woman to land the triple Axel jump in national competition.",
+      "base": "In 2005, Meissner was the second female American to do a tricky jump called the triple Axel in a big contest for everyone.",
+      "fine_tuned": "Meissner was the first American woman to land a triple Axel jump in national competition."
+    },
+    {
+      "source": "Salem is a city in Essex County, Massachusetts, United States.",
+      "base": "Salem is a town in Essex County, Massachusetts, USA.",
+      "fine_tuned": "Salem is a city of Massachusetts in the United States."
+    },
+    {
+      "source": "Forty-nine species of pipefish and nine species of seahorse have been recorded.",
+      "base": "Forty-nine kinds of pipefish and nine kinds of seahorses have been found.",
+      "fine_tuned": "There are forty-nine species of pipefish and nine species of seahorse."
+    },
+    {
+      "source": "Saint Martin is a tropical island in the northeast Caribbean, approximately 300 km (186 miles) east of Puerto Rico.",
+      "base": "Saint Martin is a warm island in the north part of the Caribbean Sea, about 300 kilometers (186 miles) away from Puerto Rico.",
+      "fine_tuned": "Saint Martin is an island in the Caribbean Sea. It is about 300 km (186 miles) east of Puerto Rico."
+    },
+    {
+      "source": "Therefore, these PDFs can not be distributed without further manipulation if they contain images.",
+      "base": "If a PDF has pictures inside it, you need to change them first before sharing or giving out those PDF files.",
+      "fine_tuned": "These PDF files cannot be shared without changing them first."
+    },
+    {
+      "source": "In April 1862, Ben was arrested on the orders of Police Inspector Sir Frederick Pottinger for participating in an armed robbery whilst in the company of Frank Gardiner.",
+      "base": "In April 1862, Ben was taken by Police Inspector Sir Frederick Pottinger because he was part of a group that robbed people with guns.",
+      "fine_tuned": "Ben was arrested by police inspector Sir Frederick Pottinger because he had been part of a group that robbed banks."
+    },
+    {
+      "source": "Heavy rain fell across portions of Britain on October 5, causing localized accumulation of flood waters.",
+      "base": "On October 5, heavy rain hit parts of Britain, leading to local flooding where water levels rose high enough to cause problems.",
+      "fine_tuned": "On October 5, heavy rain fell over parts of England."
+    },
+    {
+      "source": "Version 2009.1 provides a USB installer to create a Live USB, where the user's configuration and personal data can be saved if desired.",
+      "base": "Version 2009.1 lets you make a special USB drive that you can use to try out the software without changing your computer. You can save any settings or information you want on it.",
+      "fine_tuned": "Version 2009.1 has a USB installer that allows users to save their settings on a USB stick."
+    },
+    {
+      "source": "In approximate relation to the parties' respective strength in the Federal Assembly, the seats were distributed as follows: Free Democratic Party (FDP): 2 members, Christian Democratic People's Party (CVP): 2 members, Social Democratic Party (SP): 2 members, and Swiss People's Party (SVP): 1 member.",
+      "base": "Here is how the seats were divided based on each party's strength in the Federal Assembly:\n\n- The Free Democratic Party got 2 seats.\n- The Christian Democratic People's Party also got 2 seats.\n- The Social Democratic Party had 2 seats.\n- And the Swiss People's Party got just 1 seat.",
+      "fine_tuned": "The seats were distributed as follows: Free Democratic Party (FDP): 2 members, Christian Democratic People's Party (CVP): 2 members, Social Democratic Party (SP): 2 members, and Swiss People's Party (SVP): 1 member."
+    },
+    {
+      "source": "A fee is the price one pays as remuneration for services, especially the honorarium paid to a doctor, lawyer, consultant, or other member of a learned profession.",
+      "base": "A fee is what someone gives for help, like when you pay a teacher or doctor for their time.",
+      "fine_tuned": "A fee is money that someone has to pay for something they have done."
+    },
+    {
+      "source": "Ohio State's library system encompasses twenty-one libraries located on its Columbus campus.",
+      "base": "Ohio State has 21 libraries on its campus in Columbus.",
+      "fine_tuned": "The Ohio State University has 21 libraries on its campus."
+    },
+    {
+      "source": "In other developments, both Iceland and Greenland accepted the overlordship of Norway, but Scotland was able to repulse a Norse invasion and broker a favorable peace settlement.",
+      "base": "Other news: Both Iceland and Greenland became part of Norway, but Scotland stopped an attack from Vikings and made friends instead.",
+      "fine_tuned": "Iceland and Greenland became part of Norway, while Scotland was able to stop an attack by the Vikings and make a good deal with them."
+    },
+    {
+      "source": "The singles from the album included \"By the Way\", \"The Zephyr Song\", \"Can't Stop\", \"Dosed\"and\"Universally Speaking\".",
+      "base": "The songs on the album are \"By the Way\", \"The Zephyr Song\", \"Can't Stop\", \"Dosed\", and \"Universally Speaking\".",
+      "fine_tuned": "The songs on the album were \"By the Way\", \"The Zephyr Song\", \"Can't Stop\", \"Dosed\"and\"Universally Speaking\"."
+    },
+    {
+      "source": "In April 2000, MINIX became free / open source software under a permissive free software licence, but by this time other operating systems had surpassed its capabilities, and it remained primarily an operating system for students and hobbyists.",
+      "base": "In April 2000, MINIX was made free and open-source software. It used a special kind of license that lets people do what they want with it. But by then, other computer programs were better than MINIX, so most people didn't use it much anymore. Instead, it was mostly used by students and people who like to tinker with computers.",
+      "fine_tuned": "In April 2000, MINIX was made free software under a permissive free software license. However, other operating systems were better than MINIX at that time, so MINIX remained mainly used by students and hobbyists."
+    },
+    {
+      "source": "The body color varies from medium brown to gold-ish to beige-white; and occasionally, is marked with dark brown spots, especially on the limbs.",
+      "base": "The color of the body can be light brown or golden-brown, sometimes with darker brown spots, particularly on the legs.",
+      "fine_tuned": "Its colour ranges from light brown to yellowish-brown or white. It has dark brown spots on its legs."
+    },
+    {
+      "source": "The Britannica was primarily a Scottish enterprise, as symbolised by its thistle logo, the floral emblem of Scotland.",
+      "base": "The big book called Britannica started out being mostly about Scotland because it had a special picture on it that looked like a flower from Scotland.",
+      "fine_tuned": "It is mainly a Scottish company because it has a thistle on its logo."
+    },
+    {
+      "source": "The area covered by the warning issued on September 22 was extended southwards as Jose intensified, before being canceled soon after landfall on September 23.",
+      "base": "On September 22, a warning area grew larger to the south because Jose became stronger. Then, just before it hit land on September 23, the warning was cancelled.",
+      "fine_tuned": "The area covered by the warning was expanded to the south as Jose became stronger, but it was cancelled soon after landfall on September 23."
+    },
+    {
+      "source": "In August 2003, the San Diego Union Tribune alleged that U.S. Marine pilots and their commanders confirmed the use of Mark 77 firebombs on Iraqi Republican Guards during the initial stages of combat.",
+      "base": "In August 2003, the San Diego Union Tribune said some Marines used special bombs called Mark 77s against Iraq's army early in the war.",
+      "fine_tuned": "The San Diego Union Tribune said that U.S. Marines used Mark 77 firebombs on Iraqi Republican Guards during the first part of the war."
+    },
+    {
+      "source": "The latter provided audiences with the sort of information later provided by intertitles, and can help historians imagine what the film may have been like.",
+      "base": "The latter gave viewers the kind of info that subtitles usually provide, helping historians guess how the movie might look.",
+      "fine_tuned": "Later movies had subtitles that told viewers about the movie."
+    },
+    {
+      "source": "That is because real estate, businesses and other assets in the underground economies of the Third World can not be used as collateral to raise capital to finance industrial and commercial expansion.",
+      "base": "It's hard for people in poor countries to borrow money to build big things like factories or stores because they don't have good ways to keep track of their money.",
+      "fine_tuned": "Real estate, businesses and other assets in the underground economies of the Third World cannot be used as collateral to raise money for business growth."
+    },
+    {
+      "source": "He bolted from Sydney Cove several times before being shot dead in 1796.",
+      "base": "He ran away from a place called Sydney Cove many times before he was killed by someone in 1796.",
+      "fine_tuned": "He was killed by a gunshot in 1796."
+    },
+    {
+      "source": "Ned and Dan advanced to the police camp, ordering them to surrender.",
+      "base": "Ned and Dan went to a police camp and told the police to stop fighting.",
+      "fine_tuned": "They ordered the police to surrender."
+    },
+    {
+      "source": "Before the second game got underway, the press agreed that the \"midget-in-a-cake\" appearance had not been up to Veeck's usual promotional standard.",
+      "base": "Before the second game started, everyone who talks for the team said the funny-looking person didn't do a good job of being funnier than usual.",
+      "fine_tuned": "The press said that the midget-in-a-cake appearance was not good enough for Veeck."
+    },
+    {
+      "source": "In a short video promoting the charity Equality Now Joss Whedon confirmed that \"Fray is not done, Fray is coming back.",
+      "base": "Joss Whedon, who made a short video for the charity called Equality Now, said that the character Fray will continue to appear in future stories.",
+      "fine_tuned": "Joss Whedon said on a short video that \"Fray is not done\"."
+    },
+    {
+      "source": "A mutant is a type of fictional character that appears in comic books published by marvel comics.",
+      "base": "A mutant is a special kind of superhero found in comic books made by Marvel Comics.",
+      "fine_tuned": "A mutant is a person who has superpowers or abilities which are not normal for humans."
+    },
+    {
+      "source": "The SAT Reasoning Test (formerly Scholastic Aptitude Test and Scholastic Assessment Test) is a standardized test for college admissions in the United States.",
+      "base": "The SAT Reasoning Test used to be called the Scholastic Aptitude Test or Scholastic Assessment Test. It's an important exam that helps colleges decide if you're ready for their classes.",
+      "fine_tuned": "The SAT Reasoning Test is an exam that students take to get into colleges in the United States."
+    },
+    {
+      "source": "Civil unrest in northern Italy spawns the medieval musical form of Geisslerlieder, penitential songs sung by wandering bands of Flagellants.",
+      "base": "In northern Italy during civil unrest, a new type of music called Geisslerlieder was born. These were penitential songs that were sung by itinerant groups known as Flagellants.",
+      "fine_tuned": "In northern Italy, civil unrest leads to a new kind of music called \"Geisslerlieder\". These are songs that were sung by wandering groups of people who beat themselves up as part of their religion."
+    },
+    {
+      "source": "Some reports read that various factors increase the likelihood of both paralysis and hallucinations.",
+      "base": "Some studies say different things - they think some reasons make it more likely to have both not being able to move your body (paralysis) and seeing things that aren't there (hallucinations).",
+      "fine_tuned": "Some people think that certain things make it more likely to have paralysis or hallucinations."
+    },
+    {
+      "source": "His sentence was transportation to Australia for seven years.",
+      "base": "He spent seven years traveling by ship to Australia.",
+      "fine_tuned": "He was sent to Australia for seven years."
+    },
+    {
+      "source": "Waugh writes that Charles had been \"in search of love in those days\"when he first met Sebastian, finding\"that low door in the wall... which opened on an enclosed and enchanted garden\", a metaphor that informs the work on a number of levels.",
+      "base": "Waugh says Charles was looking for love when he first met Sebastian. He found something like a secret passage way inside a wall - it led to a magical garden where everything is hidden but beautiful. This idea helps explain what's happening in his writing.",
+      "fine_tuned": "Charles was looking for love when he first met Sebastian. He found \"a low door in the wall... which opened on an enclosed and enchanted garden\"."
+    },
+    {
+      "source": "Her notorious friendship with the Russian mystic Grigori Rasputin was also an important factor in her life.",
+      "base": "She had a famous connection to the mysterious Russian mystic named Grigori Rasputin that played a big part in her life.",
+      "fine_tuned": "She had a famous friendship with the Russian mystic Grigori Rasputin."
+    },
+    {
+      "source": "The term dorsal refers to anatomical structures that are either situated toward or grow off that side of an animal.",
+      "base": "Dorsal means things on the back or coming from the back side of an animal.",
+      "fine_tuned": "Dorsal means something is on the back of a living thing."
+    },
+    {
+      "source": "The term \"protein\" itself was coined by Berzelius, after Mulder observed that all proteins seemed to have the same empirical formula and might be composed of a single type of (very large) molecule.",
+      "base": "The word \"protein\" came from someone named Berzelius. He got the idea because Mulder noticed that all proteins had the same basic recipe, kind of like how you mix ingredients together to make something tasty. Mulder thought these big molecules were just one type of ingredient, even though they're really, really big!",
+      "fine_tuned": "Berzelius named the substance \"protein\", because he thought it had the same chemical formula as other substances called \"albumin\"."
+    },
+    {
+      "source": "After the Jerilderie raid, the gang laid low for 16 months evading capture.",
+      "base": "After a group of people called the \"Jerrilgerie\" did something bad, they hid away for 16 whole months to avoid being caught by the police.",
+      "fine_tuned": "The gang lay low for 16 months avoiding being caught."
+    },
+    {
+      "source": "Barneville-la-Bertran is a commune in the Calvados department in the Basse-Normandie region in northwestern France.",
+      "base": "Barneville-la-Bertran is a town in the Calvados county of Normandy's Lower Normandy area in northern France.",
+      "fine_tuned": "Barneville-la-Bertran is a commune. It is found in the Calvados department of Normandy in northern France."
+    },
+    {
+      "source": "Color ranges from orange to pale yellow.",
+      "base": "The color goes from orange to a very light yellow.",
+      "fine_tuned": "It is a bright orange color."
+    },
+    {
+      "source": "In 1963 an extension was added, curving north from Union station, below University Avenue and Queen's Park to near Bloor Street, where it turned west to terminate at St. George and Bloor Streets.",
+      "base": "In 1963, a new part was built that curved around from Union Station, going under University Avenue and Queen's Park all the way down to near Bloor Street. At Bloor Street, it went straight up to end at St. George and Bloor Streets.",
+      "fine_tuned": "In 1963 an extension was added, going north from Union Station, below University Avenue and Queen's Park to near Bloor Street, where it turned west to end at St. George and Bloor Streets."
+    },
+    {
+      "source": "Before 1980, a section of the Commonwealth Railways Central Australian line passed along the western side of the Simpson Desert.",
+      "base": "Before 1980, part of the Commonwealth Railways' main line ran along the western edge of the Simpson Desert.",
+      "fine_tuned": "Before 1980, a section of the Commonwealth Railways Central Australian line went along the western side of the Simpson Desert."
+    },
+    {
+      "source": "It is located on an old portage trail which led west through the mountains to Unalakleet.",
+      "base": "It's on a long-ago path that went from the coast up the mountains to Unalakleet.",
+      "fine_tuned": "It was built on a portage trail that went west through the mountains to Unalakleet."
+    },
+    {
+      "source": "People with cardiomyopathy are often at risk of arrhythmia or sudden cardiac death or both.",
+      "base": "People who have a heart condition called cardiomyopathy usually face a higher chance of having irregular heartbeat problems or suddenly dying from their heart.",
+      "fine_tuned": "People who have cardiomyopathy may be at risk for heart failure and sudden death."
+    },
+    {
+      "source": "As the largest sub-region in Mesoamerica, it encompassed a vast and varied landscape, from the mountainous regions of the Sierra Madre to the semi-arid plains of northern Yucatán.",
+      "base": "It was the biggest part of Mexico that included lots of different places, like mountains and dry areas near the coast.",
+      "fine_tuned": "It was the largest part of Mesoamerica, and included a wide range of landscapes, from mountains to semi-arid plains."
+    },
+    {
+      "source": "Google subsequently made the comic available on Google Books and their site and mentioned it on its official blog along with an explanation for the early release.",
+      "base": "Google shared the comic on Google Books and its website. They also talked about it on their official blog, explaining why they released it early.",
+      "fine_tuned": "Google later put the comic on Google Books and their website. They also said something about it on their official blog."
+    },
+    {
+      "source": "Anyone may register a pedigree with the college, where they are carefully internally audited and require official proofs before being altered.",
+      "base": "Anyone can sign up for their family history at the school. The people who do so must be checked very closely by the school staff. They need to show proof that everything is correct before anyone else can change it.",
+      "fine_tuned": "Anybody can register a pedigree with the college, where it is checked by experts."
+    },
+    {
+      "source": "The book, Political Economy, was published in 1985, but had limited classroom adoption.",
+      "base": "The book called \"Political Economy\" came out in 1985, but not many people used it in school classes.",
+      "fine_tuned": "It was published in 1985."
+    },
+    {
+      "source": "He toured with the IPO in the spring of 1990 for their first-ever performance in the Soviet Union, with concerts in Moscow and Leningrad, and toured with the IPO again in 1994, performing in China and India.",
+      "base": "In 1990, he played his first big show in the Soviet Union during a tour with the IPO. He performed there in Moscow and Leningrad. In 1994, he did it all over again, playing in China and India on tours with the IPO.",
+      "fine_tuned": "In 1990 he performed in Russia and China. He also played in India in 1994."
+    },
+    {
+      "source": "Napoleonic Wars: Austrian General Mack surrenders his army to the Grand Army of Napoleon at Ulm, reaping Napoleon over 30,000 prisoners and inflicting 10,000 casualties on the losers.",
+      "base": "A big general named Mack from Austria gave up his soldiers to Napoleon's army at a place called Ulm. This made Napoleon win more than 30,000 people who were against him and hurt about 10,000 people who didn't want Napoleon to win.",
+      "fine_tuned": "The Battle of Ulm was a battle during the Napoleonic Wars. The Austrians were defeated by the French under Napoleon."
+    },
+    {
+      "source": "It has long been the economic centre of northern Nigeria, and a centre for the production and export of groundnuts.",
+      "base": "It's always been important for money stuff in north Nigeria. It makes lots of peanut food that people buy far away.",
+      "fine_tuned": "It is also an important center for the production and export of groundnuts."
+    },
+    {
+      "source": "A majority of South Indians speak one of the five Dravidian languages — Kannada, Malayalam, Tamil, Telugu and Tulu.",
+      "base": "Most people from South India speak one of these five languages: Kannada, Malayalam, Tamil, Telugu, and Tulu.",
+      "fine_tuned": "Most South Indian people speak one of the five Dravidian languages: Kannada, Malayalam, Tamil, Telugu and Tulu."
+    },
+    {
+      "source": "Meteora earned the band multiple awards and honors.",
+      "base": "Meteora won many prizes for the band.",
+      "fine_tuned": "The band won many awards for their music."
+    },
+    {
+      "source": "After a brief stand-off, the WWF cavalry turned around and attacked Kane and Jericho.",
+      "base": "The WWE wrestlers came to help, but then they turned against Kane and Jericho instead.",
+      "fine_tuned": "The WWF's cavalry turned around and attacked Kane and Jericho."
+    },
+    {
+      "source": "Most of the songs were written by Richard M. Sherman and Robert B. Sherman.",
+      "base": "The most of the songs were created by Richard M. Sherman and Robert B. Sherman.",
+      "fine_tuned": "The music was created by Richard M. Sherman and Robert B. Sherman."
+    },
+    {
+      "source": "In the 5th century Slavs started to move into the area.",
+      "base": "Slavic people began moving there in the fifth century.",
+      "fine_tuned": "The Slavic people moved into the area in the 5th century."
+    },
+    {
+      "source": "From 1900 to 1920 many new facilities were constructed on campus, including facilities for the dental and pharmacy programs, a chemistry building, a building for the natural sciences, Hill Auditorium, large hospital and library complexes, and two residence halls.",
+      "base": "Between 1900 and 1920, lots of new buildings were built on campus. These included places for dentists, doctors who make medicines, scientists studying nature, big meeting rooms, hospitals where sick people go, libraries full of books, and special houses where students live.",
+      "fine_tuned": "In 1900, many new buildings were built on campus. These included facilities for the dental and pharmacy programs, a chemistry building, a building for the natural sciences, Hill Auditorium, large hospital and library complexes, and two residence halls."
+    },
+    {
+      "source": "Winchester is a city in Scott County, Illinois, United States.",
+      "base": "Winchester is a city located in Scott County, Illinois, USA.",
+      "fine_tuned": "Winchester is a city of Illinois in the United States."
+    },
+    {
+      "source": "Name Arzashkun seems to be the Assyrian form of an Armenian name ending in -ka formed from a proper name Arzash, which recalls the name Arsene, Arsissa, applied by the ancients to part of Lake Van.",
+      "base": "The name Arzashkun is like the Armenian version of someone named Arzash. It comes from a special name called Arsene that people used long ago near a big lake called Lake Van.",
+      "fine_tuned": "The name Arzashkun is probably derived from an Armenian name ending in -ka. It was named after the ancient city of Arzash (Arsene), which was located on the banks of Lake Van."
+    },
+    {
+      "source": "Out of 16,421 participants in the national casting, she was chosen among the 15 candidates to appear on the TV show.",
+      "base": "She was one of 15 finalists out of 16,421 people who applied for a job.",
+      "fine_tuned": "She was one of the fifteen people who were chosen to be on the show."
+    },
+    {
+      "source": "Its episodes were broadcast on the ABC network from its debut on September 21, 1993 to March 1, 2005.",
+      "base": "The show's episodes aired on the ABC channel from when it first started on September 21, 1993, until it ended on March 1, 2005.",
+      "fine_tuned": "It was first shown on ABC from September 21, 1993 until March 1, 2005."
+    },
+    {
+      "source": "The latter device can then be designed and used in less stringent environments.",
+      "base": "Then you can make a new toy that works well even when it's not as fancy or special.",
+      "fine_tuned": "This means that it can be made for use in less strict environments."
+    },
+    {
+      "source": "Gimnasia hired first famed Colombian trainer Francisco Maturana, and then Julio César Falcioni, but both had limited success.",
+      "base": "Gymnastics chose two famous trainers from Colombia: Francisco Maturana and Julio Cesar Falcioni. However, neither of them was very successful.",
+      "fine_tuned": "Gimnasia hired first famous Colombian trainer Francisco Maturana, and then Julio César Falcioni."
+    },
+    {
+      "source": "Brighton is a city in Washington County, Iowa, United States.",
+      "base": "Brighton is a city located in Washington County, Iowa, USA.",
+      "fine_tuned": "Brighton is a city of Iowa in the United States."
+    },
+    {
+      "source": "Furthermore, she appeared in several music videos, including \"It Girl\"by John Oates and\"Just Lose It\" by Eminem.",
+      "base": "She was in many music videos, like \"It Girl\" by John Oates and \"Just Lose It\" by Eminem.",
+      "fine_tuned": "She also made a guest appearance on the music video for \"Just Lose It\" by Eminem."
+    },
+    {
+      "source": "On June 24 1979 (the 750th anniversary of the village), Glinde received its town charter.",
+      "base": "On June 24, 1979, which was the 750th anniversary of the village, Glinde got a special paper that said it could be a city.",
+      "fine_tuned": "In 1979, it got a town charter."
+    },
+    {
+      "source": "Pauline returned in the Game Boy remake of Donkey Kong in 1994, and later Mario vs. Donkey Kong 2: March of the Minis in 2006, although the character is now described as \"Mario's friend\".",
+      "base": "In 1994, Pauline appeared in a Game Boy version of Donkey Kong. In 2006, she also appeared in Mario vs. Donkey Kong 2: The Mini Men. However, people now describe her as just another friend of Mario.",
+      "fine_tuned": "She appeared again in the Game Boy remake of Donkey Kong in 1994, and later in Mario vs. Donkey Kong 2: March of the Minis in 2006."
+    },
+    {
+      "source": "The vagina is remarkably elastic and stretches to many times its normal diameter during vaginal birth.",
+      "base": "The vagina can stretch a lot during childbirth because it's very flexible. It gets bigger than usual when you have a baby through your vagina.",
+      "fine_tuned": "During childbirth, the vagina can stretch up to 10 times its normal size."
+    },
+    {
+      "source": "His real date of birth was never recorded, but it is believed to be a date between 1935 and 1939.",
+      "base": "The person's true birthday isn't known, but it's thought to fall somewhere around 1935 to 1939.",
+      "fine_tuned": "It is not known when he was born."
+    },
+    {
+      "source": "This quantitative measure indicates how much of a particular drug or other substance (inhibitor) is needed to inhibit a given biological process (or component of a process, i.e. an enzyme, cell, cell receptor or microorganism) by half.",
+      "base": "This measurement tells us how much of something helps stop a certain thing from happening. It's like asking \"How much of this special juice do we need so that it stops the red light from going on?\"",
+      "fine_tuned": "It shows how much of a particular drug or other substance (an inhibitor) is needed to stop a given biological process (or part of a process)."
+    },
+    {
+      "source": "Although the name suggests that they are located in the Bernese Oberland region of the canton of Bern, portions of the Bernese Alps are in the adjacent cantons of Valais, Lucerne, Obwalden, Fribourg and Vaud.",
+      "base": "The place names might make you think it's in a special area called the Bernese Oberland, but actually, parts of the big mountain range there are in nearby places like Valais, Lucerne, Obwalden, Fribourg, and Vaud.",
+      "fine_tuned": "The name suggests that they are in the Bernese Oberland region of the canton of Bern. However, parts of the Bernese Alps are in the nearby cantons of Valais, Lucerne, Obwalden, Fribourg and Vaud."
+    },
+    {
+      "source": "There he had one daughter, later baptized as Mary Ann Fisher Power, to Ann (e) Power.",
+      "base": "He had a daughter named Mary Ann Fisher Power when she was baptized. His wife's name was Ann (e) Power.",
+      "fine_tuned": "He had a daughter named Mary Ann Fisher Power."
+    },
+    {
+      "source": "During an interview, Edward Gorey mentioned that Bawden was one of his favorite artists, lamenting the fact that not many people remembered or knew about this fine artist.",
+      "base": "Edward Gorey said Bawden was his favorite artist. He's upset because not many people know about him anymore.",
+      "fine_tuned": "During an interview, Edward Gorey said that Bawden was one of his favorite artists. He also said that not many people remembered or knew about this fine artist."
+    },
+    {
+      "source": "The string can vibrate in different modes just as a guitar string can produce different notes, and every mode appears as a different particle: electron, photon, gluon, etc.",
+      "base": "The string can make sounds like a guitar does, but instead of using air to make music, it uses tiny particles called strings. Each time you play, you get a new sound because each time the string vibrates, it makes a different kind of particle - like an electron or a photon.",
+      "fine_tuned": "A string can vibrate in different ways like a guitar string does. Every vibration is called a \"mode\"."
+    },
+    {
+      "source": "Gable also earned an Academy Award nomination when he portrayed Fletcher Christian in 1935's Mutiny on the Bounty.",
+      "base": "Gable got a nod for best actor when he played Fletcher Christian in 1935's Mutiny on the Bounty.",
+      "fine_tuned": "He was nominated for an Academy Award for Best Actor for his role as Fletcher Christian in \"Mutiny on the Bounty\"."
+    }
+  ],
+  "technical": [
+    {
+      "source": "The garbage collector employs a generational heuristic whereby short-lived objects are reclaimed preferentially, thereby amortizing the cost of memory compaction across allocation cycles.",
+      "base": "The garbage collector uses a smart rule that favors getting rid of short-lived things quickly. This helps save money on cleaning up space when we're not using it much.",
+      "fine_tuned": "The garbage collector uses a \"generational\" approach to reclaiming memory. Short-lived objects are reclaimed more often than long-lived ones."
+    },
+    {
+      "source": "Idempotent request handling ensures that repeated invocations of an endpoint with identical parameters do not produce additional side effects on server state.",
+      "base": "Idempotent request handling means that when you send the same information to a certain part of your website or app multiple times, it doesn't cause any extra problems for how things are stored there.",
+      "fine_tuned": "An idempotent request means that a client can send multiple requests to the same endpoint without causing any problems for the server."
+    },
+    {
+      "source": "The load balancer distributes inbound traffic across a horizontally scaled pool of stateless instances, removing unhealthy nodes based on periodic liveness probes.",
+      "base": "The load balancer sends traffic to different computer parts (nodes) that don't remember each other. It checks if these parts are working properly by asking them questions at regular intervals. If it finds out a part isn't working right, it tells the load balancer not to send any more traffic there.",
+      "fine_tuned": "Load balancing is used to distribute incoming requests between multiple servers."
+    },
+    {
+      "source": "Eventual consistency permits replicas to diverge transiently, provided that all replicas converge to an identical state once updates cease to propagate.",
+      "base": "Eventually, replicas can become a little different for a bit, as long as they end up being exactly the same when no more changes are happening.",
+      "fine_tuned": "Eventually consistent systems can have replicas which are different for a while but will eventually become equal."
+    },
+    {
+      "source": "The compiler performs dead code elimination by constructing a control flow graph and removing basic blocks that are unreachable from the program entry point.",
+      "base": "The compiler gets rid of useless parts called \"dead code\" by drawing a picture (called a control flow graph) and then getting rid of sections that don't lead to where the computer starts.",
+      "fine_tuned": "The compiler removes dead code by building a control flow graph and removing basic blocks that are not reachable from the program entry point."
+    },
+    {
+      "source": "Asymmetric encryption relies on a mathematically related key pair, wherein data encrypted with the public key can be decrypted solely by the corresponding private key.",
+      "base": "Asymmetric encryption uses two keys that are mathematically linked. The data is protected when it's sent using one key (the public key), but only someone who knows the other key (the private key) can unlock it.",
+      "fine_tuned": "Asymmetric encryption uses two keys: one for encrypting (or \"encrypting\") messages, and another for decrypting them."
+    },
+    {
+      "source": "Regularization mitigates overfitting by penalizing excessive parameter magnitudes, thereby constraining model complexity and improving generalization to unseen data.",
+      "base": "Regularization helps prevent a model from learning too much from its training data by making it harder for parameters to be too big. This makes the model simpler and better at predicting new, unseen data.",
+      "fine_tuned": "Regularization is a way of preventing overfitting. It does this by making the parameters smaller (less extreme)."
+    },
+    {
+      "source": "Gradient descent iteratively adjusts model parameters in the direction opposite to the gradient of the loss function until convergence is achieved.",
+      "base": "Gradient descent keeps adjusting its model's settings by moving them in the opposite way from where it sees a big hill (the slope or \"gradient\") on a graph that shows how well things are going. It does this over and over until it finds the best spot for the model.",
+      "fine_tuned": "The algorithm uses a method called \"gradient descent\" to find the minimum value of the cost function."
+    },
+    {
+      "source": "A sampling rate below the Nyquist frequency induces aliasing, whereby high-frequency components become indistinguishable from lower-frequency signals.",
+      "base": "If you play a recording at a speed slower than its actual speed, it can make some of the higher sounds disappear and get mixed up with the lower sounds.",
+      "fine_tuned": "If a signal is sampled at too low of a rate, then it will be impossible to distinguish between different frequencies."
+    },
+    {
+      "source": "The finite impulse response filter attenuates out-of-band noise while maintaining linear phase across the passband, at the expense of increased computational latency.",
+      "base": "The filter reduces background noise but delays signals by a fixed amount; it works well for frequencies within its range but can slow down processing speed.",
+      "fine_tuned": "It is a type of digital filter that has a finite number of coefficients (impulse responses)."
+    },
+    {
+      "source": "Lithium-ion cells undergo capacity degradation as a consequence of solid electrolyte interphase growth during repeated charge and discharge cycles.",
+      "base": "Lithium-ion batteries lose their power over time because of tiny layers that form on them when they're charged and discharged many times.",
+      "fine_tuned": "The lithium-ion battery has a limited number of charges before it starts to degrade."
+    },
+    {
+      "source": "Thermal runaway occurs when exothermic reactions within a cell generate heat faster than it can be dissipated, resulting in a self-accelerating temperature increase.",
+      "base": "Thermal runaway happens when chemical reactions inside a cell make things too hot for them to cool down fast enough, so the heat keeps getting bigger on its own.",
+      "fine_tuned": "Thermal runaway is an effect that happens inside cells. It causes the temperature to rise very quickly."
+    },
+    {
+      "source": "Antibiotic resistance proliferates through horizontal gene transfer, enabling bacteria to acquire resistance determinants from phylogenetically unrelated organisms.",
+      "base": "Antibiotics can't fight back against germs because some of them have learned how to hide their bad traits. This happens when tiny bits of information about these hidden traits are shared between different types of germs that don't usually hang out together.",
+      "fine_tuned": "Bacteria can get antibiotic resistance by exchanging genes horizontally (through plasmids)."
+    },
+    {
+      "source": "Monoclonal antibodies bind selectively to a specific epitope on the target antigen, thereby facilitating immune-mediated clearance of the affected cells.",
+      "base": "Monoclonal antibodies attach very specifically to tiny spots on the target germ that help our body fight off sick cells.",
+      "fine_tuned": "Monoclonal antibodies can be used to block or remove antigens from cells."
+    },
+    {
+      "source": "The randomized controlled trial demonstrated a statistically significant reduction in systolic blood pressure relative to placebo after 12 weeks of treatment.",
+      "base": "The study showed that taking medicine helped lower people's high blood pressure by about as much as not taking any medicine at all after following the same plan for 12 weeks.",
+      "fine_tuned": "A study showed that taking the drug reduced systolic blood pressure by about 5 mmHg compared to placebo."
+    },
+    {
+      "source": "Quantitative easing entails large-scale central bank purchases of long-dated securities in order to depress yields and stimulate aggregate demand.",
+      "base": "Quantitative easing is when a big bank buys lots of special papers that people promise to pay back later. This helps make money easier for everyone to spend.",
+      "fine_tuned": "It is a way for the central banks to buy bonds from the market."
+    },
+    {
+      "source": "Inflation erodes the real value of fixed-income instruments, which necessitates a higher nominal yield to compensate investors for diminished purchasing power.",
+      "base": "Inflation makes bonds lose their real worth, so you need to offer more money to buy them.",
+      "fine_tuned": "Inflation makes it harder to buy things because money is worth less over time."
+    },
+    {
+      "source": "Corrosion of reinforcing steel is initiated when chloride ions penetrate the concrete cover and compromise the passive oxide layer surrounding the bar.",
+      "base": "When salty water gets inside the cement that holds up a building or bridge, it can eat away at the metal bars that hold those structures together.",
+      "fine_tuned": "When chloride ions get through the concrete cover, they break down the passive oxide layer around the bars."
+    },
+    {
+      "source": "Fatigue failure results from the progressive propagation of microscopic cracks under cyclic loading, even when applied stresses remain below the material's yield strength.",
+      "base": "Fatigue happens because tiny cracks keep growing bigger over time, no matter how small the stress is that tries to break them.",
+      "fine_tuned": "Fatigue failure is a type of failure that happens because of fatigue (repeated stress)."
+    },
+    {
+      "source": "The indemnifying party shall hold harmless the indemnified party against all liabilities arising out of any breach of the representations set forth herein.",
+      "base": "If someone breaks their promises, the other person who promised will protect you from any problems that come from it.",
+      "fine_tuned": "The indemnifying party will not be responsible for any damages caused by a breach of the representations made here."
+    }
+  ]
+}

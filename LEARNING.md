@@ -111,6 +111,17 @@ No single score is enough, because each can be gamed:
 
 Always read the examples too. Automatic scores cannot confirm that a rewrite is correct.
 
+## What this project actually found
+
+The honest summary for a client: **fine-tuning changed the style, and it also copied the data's flaws.**
+
+- **It worked on style.** On Wikipedia-like sentences, the output became shorter and about one school grade easier to read.
+- **It learned a bad habit.** It kept 68% of numbers, compared with 89% for the base model. The cause is probably the data: we rejected examples that added numbers but not ones that dropped them, and the training targets kept only 73.5%. The model learned to do what the examples did.
+- **It didn't transfer cleanly.** On technical text there was no measurable readability gain, and it often kept the jargon. The test set is only 20 sentences, so this is an early signal rather than a firm conclusion.
+- **There was no clear overfitting.** Validation loss stayed nearly flat from step 250 onward. That points to the data as the limit, not training length.
+
+**The lesson:** the next improvement should come from better data, not more training. First reject pairs that drop numbers, then add real before-and-after technical examples.
+
 ## Design decisions
 
 | Decision | Why |
