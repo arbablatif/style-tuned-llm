@@ -1,0 +1,50 @@
+{
+  "asset": {
+    "n": 359,
+    "source_fk_grade": 11.64998854852918,
+    "base": {
+      "fk_grade": 8.377155198448799,
+      "number_retention": 0.8947368421052632,
+      "copy_rate": 0,
+      "length_ratio": 1.1590168534748861,
+      "embedding_similarity": 0.8228111267089844,
+      "bertscore_f1": 0.8771485686302185
+    },
+    "fine_tuned": {
+      "fk_grade": 7.533178323014484,
+      "number_retention": 0.9157894736842105,
+      "copy_rate": 0.033426183844011144,
+      "length_ratio": 0.813125653275059,
+      "embedding_similarity": 0.8471827507019043,
+      "bertscore_f1": 0.9081574082374573
+    },
+    "human": {
+      "fk_grade": 8.398272925756133,
+      "number_retention": 0.791578947368421,
+      "copy_rate": 0.05376044568245125,
+      "length_ratio": 0.8664882157277407,
+      "embedding_similarity": 0.8997751474380493,
+      "bertscore_f1": 0.9292464852333069
+    }
+  },
+  "technical": {
+    "n": 20,
+    "source_fk_grade": 18.514335999127482,
+    "base": {
+      "fk_grade": 10.616219626655223,
+      "number_retention": 1.0,
+      "copy_rate": 0,
+      "length_ratio": 1.4575816386952811,
+      "embedding_similarity": 0.6598677039146423,
+      "bertscore_f1": 0.8076426386833191
+    },
+    "fine_tuned": {
+      "fk_grade": 11.277373976457653,
+      "number_retention": 1.0,
+      "copy_rate": 0,
+      "length_ratio": 0.8351277201956298,
+      "embedding_similarity": 0.7259287238121033,
+      "bertscore_f1": 0.85418701171875
+    }
+  }
+}

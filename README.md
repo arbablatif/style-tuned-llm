@@ -12,24 +12,25 @@ Technical writing is often hard to read for the people who need it. Large hosted
 
 - **Base model:** [Qwen2.5-1.5B-Instruct](https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct), Apache-2.0.
 - **Training data:** 20,000 cleaned complex and simple sentence pairs from [GEM/wiki_auto_asset_turk](https://huggingface.co/datasets/GEM/wiki_auto_asset_turk). No LLM API was used to create data.
-- **Training:** 4-bit QLoRA with PEFT and TRL. LoRA rank 16 on all linear layers, one epoch, with loss on the rewrite only and a 45-minute cap.
+- **Training:** 4-bit QLoRA with PEFT and TRL. LoRA rank 16 on all linear layers, up to one epoch, with loss on the rewrite only and a 45-minute cap.
 - **Evaluation:** the base model and adapter run in the same 4-bit setup, with the same prompt and greedy decoding. Both are tested on 359 unseen ASSET sentences and 20 hand-written technical passages.
 
 ### Data cleaning
 
-These are measured results from `python -m src.prepare_data` ([results/v1/data_stats.json](results/v1/data_stats.json)). Of 80,000 shuffled pairs scanned, 30,000 passing candidates were embedded, and the first 20,000 that passed the meaning check became the training set.
+These are measured results from `python -m src.prepare_data` for run 2 ([results/data_stats.json](results/data_stats.json)). Of 100,000 shuffled pairs scanned, 30,000 passing candidates were embedded, and the first 20,000 that passed the meaning check became the training set.
 
 | Filter | Pairs removed |
 |---|---:|
-| Length ratio outside 0.4 to 1.1 | 20,918 |
-| Broken encoding or non-Latin script | 7,620 |
-| Target not simpler by Flesch-Kincaid grade | 7,007 |
-| Near-copy of the source | 6,912 |
-| Target contains a number not in the source | 4,387 |
-| Source under 8 or over 60 words | 2,322 |
-| Sentence also in the test set | 3 |
+| Length ratio outside 0.4 to 1.1 | 26,107 |
+| Broken encoding or non-Latin script | 9,513 |
+| Target drops a number from the source (added in run 2) | 8,836 |
+| Near-copy of the source | 8,488 |
+| Target not simpler by Flesch-Kincaid grade | 7,036 |
+| Target contains a number not in the source | 5,499 |
+| Source under 8 or over 60 words | 2,909 |
+| Sentence also in the test set | 4 |
 | Target too short | 1 |
-| Low embedding similarity (likely misaligned) | 3,355 of the 30,000 candidates |
+| Low embedding similarity (likely misaligned) | 2,994 of the 30,000 candidates |
 
 The final split has 20,000 training pairs, 500 validation pairs and 359 test sentences, each test sentence having 10 human simplifications. A check confirmed that no source sentence appears in more than one split.
 
@@ -57,51 +58,63 @@ flowchart LR
 
 | Metric | Base | Fine-tuned | Human references |
 |---|---:|---:|---:|
-| FK grade (lower is simpler) | 8.38 | 7.41 | 8.40 |
-| BERTScore F1 vs source | 0.88 | 0.90 | 0.93 |
-| Embedding similarity vs source | 0.82 | 0.82 | 0.90 |
-| Numbers kept | 0.89 | 0.68 | 0.79 |
-| Near-copy rate | 0.00 | 0.02 | 0.05 |
+| FK grade (lower is simpler) | 8.38 | 7.53 | 8.40 |
+| BERTScore F1 vs source | 0.88 | 0.91 | 0.93 |
+| Embedding similarity vs source | 0.82 | 0.85 | 0.90 |
+| Numbers kept | 0.89 | 0.92 | 0.79 |
+| Near-copy rate | 0.00 | 0.03 | 0.05 |
 | Length vs source | 1.16 | 0.81 | 0.87 |
 
 **Hand-written technical passages** (20 sentences, source FK grade 18.51)
 
 | Metric | Base | Fine-tuned |
 |---|---:|---:|
-| FK grade (lower is simpler) | 10.62 | 10.50 |
-| BERTScore F1 vs source | 0.81 | 0.84 |
-| Embedding similarity vs source | 0.66 | 0.71 |
-| Numbers kept | 1.00 | 0.00 |
+| FK grade (lower is simpler) | 10.62 | 11.28 |
+| BERTScore F1 vs source | 0.81 | 0.85 |
+| Embedding similarity vs source | 0.66 | 0.73 |
+| Numbers kept | 1.00 | 1.00 |
 | Near-copy rate | 0.00 | 0.00 |
-| Length vs source | 1.46 | 0.79 |
+| Length vs source | 1.46 | 0.84 |
+
 <!-- RESULTS:END -->
 
 Meaning scores are measured against the source, so copying the input gets a perfect score. Compare them with the human references rather than aiming for the highest value.
 
 ### What the results show
 
-The fine-tune made the model shorter and simpler on text like its training data, but it also made it lose more detail. It is a style improvement, not a safe replacement for the base model.
+Run 1 lost too many numbers, so run 2 changed the data: it rejects training pairs whose simple side drops a number. The tables above are run 2. The fix worked on ASSET, and the model is now a better rewriter of encyclopedia-style text, but it still changes facts and shows no readability gain on technical text.
 
-- **Simpler and shorter on ASSET:** the Flesch-Kincaid grade fell by 0.97 against the base model (95% bootstrap interval 0.59 to 1.33). Output length fell from 116% to 81% of the source, while the base model made text longer than the original.
-- **Numbers were lost:** on ASSET, numbers kept fell from 89% to 68%, below the human 79%. 44 of the 112 sentences containing numbers lost at least one, against 16 for the base model. The likely cause is the training data: the filter rejected added numbers but not dropped ones, and training targets keep only 73.5% of source numbers.
-- **Meaning did not improve overall:** embedding similarity stayed at 0.82, below the human 0.90. BERTScore rose slightly, from 0.88 to 0.90.
-- **No measurable readability gain on technical text:** the grade change of 0.12 is within noise (95% interval -1.35 to 1.55), on only 20 sentences. Output was shorter (79% vs 146% of the source length), and the examples show it often keeps the jargon the base model tries to explain.
-- **Facts can change:** in example 1, the fine-tuned model replaces "arrhythmia" with "heart failure". On a technical passage outside the 10 examples, it invented a figure ("about 5 mmHg") and dropped "12 weeks". The base model makes errors too, such as garbling the same trial's finding.
-- **The technical "numbers kept" score is not meaningful:** that set contains only one number, so its 1.00 and 0.00 each reflect a single case.
+| ASSET metric | Run 1 | Repeat of run 1 | Run 2 |
+|---|---:|---:|---:|
+| Numbers kept | 0.68 | 0.68 | **0.92** |
+| Sentences losing a number (of 112) | 44 | not measured | **12** |
+| Embedding similarity vs source | 0.82 | 0.82 | **0.85** |
+| BERTScore F1 vs source | 0.90 | 0.90 | **0.91** |
+| FK grade | 7.41 | 7.41 | 7.53 |
+| Length vs source | 0.81 | 0.81 | 0.81 |
+
+The repeat is an accidental rerun of the run 1 code and data ([results/v1_repeat/](results/v1_repeat/)). Its scores moved by 0.005 or less, so run 2's changes are far larger than run-to-run noise. Run 1 is archived in [results/v1/](results/v1/).
+
+- **Numbers recovered:** numbers kept rose from 68% to 92%, above the base model's 89% and the human 79%. Sentences losing a number fell from 44 to 12, against 16 for the base model.
+- **Meaning improved a little:** embedding similarity rose from 0.82 to 0.85, now above the base model but still below the human 0.90.
+- **Simplicity was kept:** the grade is 0.84 below the base model (95% bootstrap interval 0.49 to 1.19). The change from run 1 is within noise (-0.35 to 0.09). Output is 81% of the source length, while the base model writes 116%.
+- **No readability gain on technical text:** the fine-tuned grade is 11.28 against 10.62 for the base model, and the difference is within noise (95% interval -2.39 to 1.06) on only 20 sentences. Meaning scores are higher (0.73 vs 0.66), and output is shorter (84% vs 146% of the source length).
+- **It still invents facts:** 9 ASSET outputs contain a number not written as digits in the source. Three are harmless ("twenty-one" became "21"). Six are invented, such as an unsupported date and "18 years old" for "legal adulthood". On a technical passage it added "about 5 mmHg", which is not in the source. The filter removed training pairs that add numbers, so this habit may come from the base model rather than the data, but that was not tested.
+- **It still drops or changes details:** in example 1, "arrhythmia or sudden cardiac death" becomes "heart failure". In example 3, "anthropology" is lost. The number filter can't catch errors like these.
+- **The technical "numbers kept" score is not meaningful:** that set contains only one number, so its 1.00 reflects a single case.
 
 ### Training run
 
-One epoch of 1,250 steps on a Tesla T4 took 40.9 minutes. It trained 18.5 million of 1.56 billion parameters (1.2%).
+Training reached the 45-minute cap on a Tesla T4 and stopped at step 1,142 of 1,250, about 91% of one epoch. It trained 18.5 million of 1.56 billion parameters (1.2%). The kept checkpoint is step 1,000, the same step as run 1.
 
 | Step | Training loss | Validation loss |
 |---:|---:|---:|
-| 250 | 0.857 | 0.810 |
-| 500 | 0.826 | 0.804 |
-| 750 | 0.812 | 0.812 |
-| 1,000 | 0.809 | **0.799** (best, kept) |
-| 1,250 | 0.773 | 0.804 |
+| 250 | 0.867 | 0.789 |
+| 500 | 0.858 | 0.816 |
+| 750 | 0.810 | 0.788 |
+| 1,000 | 0.845 | **0.782** (best, kept) |
 
-Validation loss stayed flat rather than rising steadily, so there is no clear overfitting. It also barely improved after step 250, which suggests that more of this data would add little.
+Validation loss stayed flat rather than rising steadily, so there is no clear overfitting. Run 1's losses aren't directly comparable, because the filter changed the validation set too.
 
 ### Side-by-side examples
 
@@ -111,17 +124,17 @@ Seven ASSET and three technical examples, chosen by a fixed random seed rather t
 **1. Original:** People with cardiomyopathy are often at risk of arrhythmia or sudden cardiac death or both.
 
 - **Base:** People who have a heart condition called cardiomyopathy usually face a higher chance of having irregular heartbeat problems or suddenly dying from their heart.
-- **Fine-tuned:** People who have cardiomyopathy may be at risk for heart failure and sudden death.
+- **Fine-tuned:** People who have cardiomyopathy may be at risk for heart failure.
 
 **2. Original:** After graduation he returned to Yerevan to teach at the local Conservatory and later he was appointed artistic director of the Armenian Philarmonic Orchestra.
 
 - **Base:** After finishing school, he went back home to Yerevan where he started teaching at a local music conservatory. Later on, he became the leader of the Armenian Philharmonic Orchestra.
-- **Fine-tuned:** He taught music at the conservatory and later became the artistic director of the Armenian Philharmonic Orchestra.
+- **Fine-tuned:** He returned to Yerevan to teach at the local Conservatory and later became artistic director of the Armenian Philharmonic Orchestra.
 
 **3. Original:** Graham attended Wheaton College from 1939 to 1943, when he graduated with a BA in anthropology.
 
 - **Base:** Graham went to college at Wheaton College from 1939 to 1943. He finished his studies there and got a Bachelor of Arts degree in anthropology.
-- **Fine-tuned:** He studied at Wheaton College from 1939 to 1943. He graduated with a Bachelor of Arts degree in Anthropology.
+- **Fine-tuned:** He studied at Wheaton College from 1939 to 1943. He got his Bachelor of Arts degree there.
 
 **4. Original:** On occasion the male "den master" will also allow a second male into the den; the reason for this is unclear.
 
@@ -136,27 +149,28 @@ Seven ASSET and three technical examples, chosen by a fixed random seed rather t
 **6. Original:** The characters are foul-mouthed extensions of their earlier characters Pete and Dud.
 
 - **Base:** The characters speak dirty like they were before, just as Pete and Dud did.
-- **Fine-tuned:** They are a pair of foul-mouthed versions of Pete and Dud.
+- **Fine-tuned:** They were made from Pete and Dud.
 
 **7. Original:** It continues as the Bohemian Switzerland in the Czech Republic.
 
 - **Base:** It's like Bohemian Switzerland in a place called the Czech Republic.
-- **Fine-tuned:** It is called Bohemian Switzerland in the Czech Republic.
+- **Fine-tuned:** The area is called "Bohemian Switzerland" in the Czech Republic.
 
 **8. Original:** Eventual consistency permits replicas to diverge transiently, provided that all replicas converge to an identical state once updates cease to propagate.
 
 - **Base:** Eventually, replicas can become a little different for a bit, as long as they end up being exactly the same when no more changes are happening.
-- **Fine-tuned:** Eventually consistent systems can have replicas which are different for a while but will eventually become equal.
+- **Fine-tuned:** Eventually consistent systems allow replicas to differ for a while, but they will eventually become equal.
 
 **9. Original:** Corrosion of reinforcing steel is initiated when chloride ions penetrate the concrete cover and compromise the passive oxide layer surrounding the bar.
 
 - **Base:** When salty water gets inside the cement that holds up a building or bridge, it can eat away at the metal bars that hold those structures together.
-- **Fine-tuned:** When chloride ions get through the concrete cover, they break down the passive oxide layer around the bars.
+- **Fine-tuned:** The corrosion starts when chloride ions enter the concrete cover and break down the passive oxide layer around the bar.
 
 **10. Original:** The load balancer distributes inbound traffic across a horizontally scaled pool of stateless instances, removing unhealthy nodes based on periodic liveness probes.
 
 - **Base:** The load balancer sends traffic to different computer parts (nodes) that don't remember each other. It checks if these parts are working properly by asking them questions at regular intervals. If it finds out a part isn't working right, it tells the load balancer not to send any more traffic there.
-- **Fine-tuned:** Load balancing is used to distribute incoming requests between multiple servers.
+- **Fine-tuned:** Load balancing is done by distributing incoming requests to different servers.
+
 <!-- EXAMPLES:END -->
 
 ## How to run
@@ -217,9 +231,10 @@ LEARNING.md                   Plain-language notes on the concepts
 ## Limitations
 
 - **Domain mismatch:** the training data is encyclopedia text, not technical documentation. The technical passages are reported separately for this reason, and there are only 20 of them.
-- **Noisy data:** Wiki-Auto pairs are aligned automatically. Filters reduce errors but don't remove them, and some simple sentences add or drop facts. Of the 9,255 training pairs containing numbers, 3,375 lose at least one in the target.
-- **Detail loss:** the fine-tuned model drops numbers and other details more often than the base model, and can change or invent facts.
+- **Noisy data:** Wiki-Auto pairs are aligned automatically. Filters reduce errors but don't remove them, and some simple sentences add or drop facts other than numbers.
+- **Detail loss:** the fine-tuned model can drop details, change facts and invent figures. Keeping numbers is not the same as keeping meaning.
 - **Sentence-level training:** long input is split into sentences and each is rewritten separately, so links between sentences can be lost.
+- **Single runs:** each result comes from one training run. The repeat of run 1 suggests low noise, but it reused the same seed and data, so it doesn't measure sensitivity to either.
 - **Automatic metrics:** Flesch-Kincaid only measures word and sentence length, and the meaning scores can miss a wrong detail. Number retention is a narrow check. Nothing here replaces human review.
 - **Not for high-stakes text:** don't use it for medical, legal or safety text without expert review.
 - **Licensing:** the base model is Apache-2.0, but licence information for the data differs between sources. The dataset card lists non-commercial terms for parts of it, so check this before any commercial use.

@@ -93,6 +93,7 @@ Fine-tuning copies the patterns in its data, including bad ones.
 - **The first dataset tried was rejected.** It was lowercased and had its numbers removed, so training on it would have taught the model to delete numbers.
 - **Near-copies are removed.** If the "simple" sentence equals the original, the model learns to copy.
 - **Sentences with new numbers are removed.** They suggest the simple side added a fact, which would teach the model to invent details.
+- **Sentences that drop numbers are removed.** Run 1 kept these and learned to lose numbers, so run 2 rejects them.
 - **Misaligned pairs are removed.** Embedding similarity finds pairs that aren't really about the same thing.
 
 ## How to read the results
@@ -113,14 +114,24 @@ Always read the examples too. Automatic scores cannot confirm that a rewrite is 
 
 ## What this project actually found
 
-The honest summary for a client: **fine-tuning changed the style, and it also copied the data's flaws.**
+The honest summary for a client: **the model copied the habits in its data, so fixing the data fixed the habit.**
 
-- **It worked on style.** On Wikipedia-like sentences, the output became shorter and about one school grade easier to read.
-- **It learned a bad habit.** It kept 68% of numbers, compared with 89% for the base model. The cause is probably the data: we rejected examples that added numbers but not ones that dropped them, and the training targets kept only 73.5%. The model learned to do what the examples did.
-- **It didn't transfer cleanly.** On technical text there was no measurable readability gain, and it often kept the jargon. The test set is only 20 sentences, so this is an early signal rather than a firm conclusion.
-- **There was no clear overfitting.** Validation loss stayed nearly flat from step 250 onward. That points to the data as the limit, not training length.
+**Run 1: it learned a bad habit.** The output became shorter and about one school grade easier to read, but it kept only 68% of numbers, compared with 89% for the base model. We had rejected examples that added numbers but not ones that dropped them, and the training targets kept only 73.5%.
 
-**The lesson:** the next improvement should come from better data, not more training. First reject pairs that drop numbers, then add real before-and-after technical examples.
+**Run 2: one data rule, a large change.** We rejected pairs that dropped a number and kept the model and training settings the same.
+
+- **Numbers kept rose from 68% to 92%,** above the base model and the human writers' 79%.
+- **Meaning scores rose slightly,** and the output stayed about as simple and short as in run 1.
+- **It still isn't trustworthy on its own.** It sometimes invents figures and drops details that aren't numbers. Six of 359 outputs invented a number. Fixing what you measure doesn't fix what you don't measure.
+- **It still doesn't help readability on technical text.** The grade was no better than the base model's, though the test set is only 20 sentences. The training data is encyclopedia text, so this isn't surprising.
+
+**How we knew the change was real.** The first "run 2" accidentally reran the old code, because the commit hadn't been pushed and Colab downloads the code from GitHub. Identical token counts in the logs exposed the mistake. It also gave us a free measurement: rerunning the same setup moved the scores by 0.005 or less, so a 24-point rise in numbers kept is not luck. The notebook now stops if the filter didn't run, and each training log records its git commit.
+
+**The lessons:**
+
+- Before believing a result, check that it came from the code you think it did.
+- Better data helped far more than longer training would have. Both runs' best checkpoint was step 1,000.
+- The next improvement should be real before-and-after technical examples, plus a check for invented facts.
 
 ## Design decisions
 
@@ -134,7 +145,7 @@ The honest summary for a client: **fine-tuning changed the style, and it also co
 | Loss on the rewrite only | Training on the fixed prompt would waste effort |
 | Greedy decoding in evaluation | The same input gives the same output, so the comparison is repeatable |
 | Sentence-by-sentence rewriting | Matches how the model was trained |
-| 45-minute training cap | Keeps the run inside the 1-hour limit even on a slow GPU |
+| 45-minute training cap | Keeps the run inside the 1-hour limit even on a slow GPU. Run 2 hit it at step 1,142 of 1,250, after its best checkpoint |
 
 ## Questions a client may ask
 
