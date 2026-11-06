@@ -1,8 +1,8 @@
-# style-tuned-llm
+# Style-Tuned LLM: QLoRA Fine-Tuning Qwen2.5-1.5B for Plain-English Rewriting
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/arbablatif/style-tuned-llm/blob/main/notebooks/train_colab.ipynb)
 
-LoRA fine-tuning of a small open-source model to rewrite complex text in plain English, trained on a free Colab GPU.
+QLoRA fine-tuning of Qwen2.5-1.5B-Instruct, a small open-source LLM, to rewrite complex text in plain English, trained on a free Colab T4 GPU.
 
 ## Problem
 
@@ -238,3 +238,14 @@ LEARNING.md                   Plain-language notes on the concepts
 - **Automatic metrics:** Flesch-Kincaid only measures word and sentence length, and the meaning scores can miss a wrong detail. Number retention is a narrow check. Nothing here replaces human review.
 - **Not for high-stakes text:** don't use it for medical, legal or safety text without expert review.
 - **Licensing:** the base model is Apache-2.0, but licence information for the data differs between sources. The dataset card lists non-commercial terms for parts of it, so check this before any commercial use.
+
+## License
+
+The code is MIT licensed. See [LICENSE](LICENSE). The base model and training data are not covered and keep their own terms, which include non-commercial conditions on parts of the data. See Limitations.
+
+## Related projects
+
+- [rag-evaluation-lab](https://github.com/arbablatif/rag-evaluation-lab): controlled comparison of RAG chunking, embeddings and top-k
+- [research-paper-rag](https://github.com/arbablatif/research-paper-rag): RAG assistant with page-level citations and refusals
+
+Project page: [https://arbablatif.github.io/projects/style-tuned-llm/](https://arbablatif.github.io/projects/style-tuned-llm/). More work at [arbablatif.github.io](https://arbablatif.github.io/).

@@ -13,3 +13,7 @@ outputs/
 results/mock/
 results/smoke/
 .gradio/
+
+# Local workspace files, not part of the project
+CLAUDE.md
+.vscode/
