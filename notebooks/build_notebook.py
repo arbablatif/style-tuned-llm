@@ -22,8 +22,11 @@ assert torch.cuda.is_available(), "No GPU: choose Runtime > Change runtime type 
 print(torch.cuda.get_device_name(0))"""),
     ("md", "## 2. Get the code and install pinned packages"),
     ("code", f"""%cd /content
+# Remove any earlier copy: a failed clone would silently leave old code in place.
+!rm -rf /content/style-tuned-llm
 !git clone {REPO_URL}
 %cd /content/style-tuned-llm
+!git log -1 --oneline
 !pip install -q -r requirements-colab.txt"""),
     ("md", """## 3. Log in to Hugging Face
 
@@ -37,6 +40,12 @@ HUB_REPO = f"{whoami()['name']}/{ADAPTER_REPO_NAME}"
 print("The adapter will be pushed to:", HUB_REPO)"""),
     ("md", "## 4. Prepare the data"),
     ("code", """!python -m src.prepare_data"""),
+    ("code", """# Stop here if this is old code, rather than spend 45 minutes training on it.
+import json
+stats = json.load(open("results/data_stats.json"))
+dropped = stats["rejected_by_rule"].get("number_dropped", 0)
+assert dropped > 0, "The number filter did not run: push the latest commit, then start again."
+print(f"Number filter is active: {dropped:,} pairs rejected.")"""),
     ("md", """## 5. Train and push the adapter
 
 If you see `CUDA out of memory`, add `--batch-size 4` and run this cell again."""),
@@ -62,7 +71,7 @@ display(Markdown(open("results/examples.md", encoding="utf-8").read()))"""),
 
 **Do this before trying the demo.** Colab deletes these files when the session ends.
 Save `style_tuned_results.zip`, then send it back or unzip it over your local repo."""),
-    ("code", """!zip -q -r style_tuned_results.zip results -x "results/v1/*"
+    ("code", """!zip -q -r style_tuned_results.zip results -x "results/v1/*" "results/v1_repeat/*"
 from google.colab import files
 files.download("style_tuned_results.zip")"""),
     ("md", """## 9. Try the demo (optional)

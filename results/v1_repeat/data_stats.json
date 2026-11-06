@@ -1,0 +1,21 @@
+{
+  "dataset": "GEM/wiki_auto_asset_turk",
+  "revision": "ac2b97468b38cb35fcebe327ac8e1cb6b55b6b99",
+  "rows_scanned": 80000,
+  "rejected_by_rule": {
+    "length_ratio": 20918,
+    "bad_encoding": 7620,
+    "not_simpler": 7007,
+    "near_copy": 6912,
+    "new_number_in_target": 4387,
+    "source_length": 2322,
+    "overlaps_held_out": 3,
+    "target_too_short": 1
+  },
+  "passed_rules_embedded": 30000,
+  "rejected_by_meaning": 3355,
+  "mean_embedding_similarity": 0.821,
+  "train": 20000,
+  "val": 500,
+  "test": 359
+}

@@ -8,6 +8,7 @@ Usage:
 import argparse
 import json
 import math
+import subprocess
 import time
 from pathlib import Path
 
@@ -16,6 +17,16 @@ from src.config import (ADAPTER_DIR, BASE_MODEL, DATA_DIR, MOCK_DATA_DIR, OUTPUT
 from src.prompts import build_training_example
 
 SMOKE_MODEL = "trl-internal-testing/tiny-Qwen2ForCausalLM-2.5"
+
+
+def current_commit() -> str:
+    """Return the git commit being run, so each result can be traced to its code."""
+    try:
+        result = subprocess.run(["git", "rev-parse", "--short", "HEAD"],
+                                capture_output=True, text=True, check=True)
+        return result.stdout.strip()
+    except (OSError, subprocess.CalledProcessError):
+        return "unknown"
 
 
 def read_examples(path: Path) -> list[dict]:
@@ -184,6 +195,7 @@ def train(args) -> None:
     write_model_card(adapter_dir, model_name)
 
     summary = {
+        "git_commit": current_commit(),
         "base_model": model_name,
         "train_pairs": len(train_set),
         "trainable_parameters": trainable,
