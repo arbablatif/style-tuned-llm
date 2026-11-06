@@ -1,0 +1,16 @@
+# Local use on Python 3.12: data, tests, mock mode, CPU smoke run and the demo.
+# 4-bit training needs a CUDA GPU; see requirements-colab.txt.
+torch==2.15.0
+transformers==5.22.1
+peft==0.21.2
+trl==1.17.1
+accelerate==1.15.0
+datasets==5.1.0
+huggingface_hub==2.4.0
+sentence-transformers==6.2.0
+textstat==0.7.13
+bert-score==0.3.13
+gradio==6.31.0
+python-dotenv==1.2.4
+nbformat==5.11.1
+pytest==9.2.0

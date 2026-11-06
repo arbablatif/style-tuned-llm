@@ -1,0 +1,13 @@
+# Colab: torch comes preinstalled, so it is deliberately not pinned here.
+transformers==5.22.1
+peft==0.21.2
+trl==1.17.1
+accelerate==1.15.0
+datasets==5.1.0
+huggingface_hub==2.4.0
+sentence-transformers==6.2.0
+textstat==0.7.13
+bert-score==0.3.13
+gradio==6.31.0
+python-dotenv==1.2.4
+bitsandbytes==0.50.2

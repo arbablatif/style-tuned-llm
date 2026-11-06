@@ -1,0 +1,20 @@
+{"source": "The garbage collector employs a generational heuristic whereby short-lived objects are reclaimed preferentially, thereby amortizing the cost of memory compaction across allocation cycles."}
+{"source": "Idempotent request handling ensures that repeated invocations of an endpoint with identical parameters do not produce additional side effects on server state."}
+{"source": "The load balancer distributes inbound traffic across a horizontally scaled pool of stateless instances, removing unhealthy nodes based on periodic liveness probes."}
+{"source": "Eventual consistency permits replicas to diverge transiently, provided that all replicas converge to an identical state once updates cease to propagate."}
+{"source": "The compiler performs dead code elimination by constructing a control flow graph and removing basic blocks that are unreachable from the program entry point."}
+{"source": "Asymmetric encryption relies on a mathematically related key pair, wherein data encrypted with the public key can be decrypted solely by the corresponding private key."}
+{"source": "Regularization mitigates overfitting by penalizing excessive parameter magnitudes, thereby constraining model complexity and improving generalization to unseen data."}
+{"source": "Gradient descent iteratively adjusts model parameters in the direction opposite to the gradient of the loss function until convergence is achieved."}
+{"source": "A sampling rate below the Nyquist frequency induces aliasing, whereby high-frequency components become indistinguishable from lower-frequency signals."}
+{"source": "The finite impulse response filter attenuates out-of-band noise while maintaining linear phase across the passband, at the expense of increased computational latency."}
+{"source": "Lithium-ion cells undergo capacity degradation as a consequence of solid electrolyte interphase growth during repeated charge and discharge cycles."}
+{"source": "Thermal runaway occurs when exothermic reactions within a cell generate heat faster than it can be dissipated, resulting in a self-accelerating temperature increase."}
+{"source": "Antibiotic resistance proliferates through horizontal gene transfer, enabling bacteria to acquire resistance determinants from phylogenetically unrelated organisms."}
+{"source": "Monoclonal antibodies bind selectively to a specific epitope on the target antigen, thereby facilitating immune-mediated clearance of the affected cells."}
+{"source": "The randomized controlled trial demonstrated a statistically significant reduction in systolic blood pressure relative to placebo after 12 weeks of treatment."}
+{"source": "Quantitative easing entails large-scale central bank purchases of long-dated securities in order to depress yields and stimulate aggregate demand."}
+{"source": "Inflation erodes the real value of fixed-income instruments, which necessitates a higher nominal yield to compensate investors for diminished purchasing power."}
+{"source": "Corrosion of reinforcing steel is initiated when chloride ions penetrate the concrete cover and compromise the passive oxide layer surrounding the bar."}
+{"source": "Fatigue failure results from the progressive propagation of microscopic cracks under cyclic loading, even when applied stresses remain below the material's yield strength."}
+{"source": "The indemnifying party shall hold harmless the indemnified party against all liabilities arising out of any breach of the representations set forth herein."}
