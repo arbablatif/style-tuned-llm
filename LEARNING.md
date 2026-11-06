@@ -1,6 +1,5 @@
 # Learning notes: how this project works
 
-These notes explain the main ideas in plain language, so you can walk a client through them.
 
 ## The one-minute version
 
